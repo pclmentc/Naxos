@@ -2,9 +2,15 @@
   display: flex;
   justify-content:center;
   align-items: center;
+}
 
-  .logo {
-    width: 150px;
-    height: auto;
+#intro {
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+    padding-bottom: 28px;
   }
 }

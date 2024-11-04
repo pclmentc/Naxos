@@ -1,0 +1,24 @@
+.navbar-icons {
+  display: flex;
+  gap: 20px; /* Espacement entre les icônes */
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+
+  .icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      width: 42px; 
+      height: auto; 
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.3); 
+      }
+    }
+  }
+}
