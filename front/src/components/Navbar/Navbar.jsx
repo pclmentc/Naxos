@@ -13,15 +13,15 @@ import temple from '../../assets/icons/templeNeuf.webp';
 
 const Navbar = () => {
   const icons = [
-    { src: apollon, href: '#home', label: 'porte du temple Apollon' },
-    { src: panneau, href: '#home', label: 'excursions et accompagnements' },
-    { src: église, href: '#home', label: 'eglises et villages' },
-    { src: croisieres, href: '#home', label: 'croisieres' },
-    { src: kouros, href: '#home', label: 'kouros' },
-    { src: experiences, href: '#home', label: 'experiences et partages' },
-    { src: carafe, href: '#home', label: 'carafe de naxos' },
-    { src: ane, href: '#home', label: 'location de moyens de transports' },
-    { src: temple, href: '#home', label: 'temples' },
+    { src: apollon, href: '#home', label: 'Porte du temple Apollon' },
+    { src: panneau, href: '#home', label: 'Excursions et accompagnements' },
+    { src: église, href: '#home', label: 'Eglises et villages' },
+    { src: croisieres, href: '#home', label: 'Croisieres' },
+    { src: kouros, href: '#home', label: 'Statue de Kouros' },
+    { src: experiences, href: '#home', label: 'Experiences et partages' },
+    { src: carafe, href: '#home', label: 'Carafe de naxos' },
+    { src: ane, href: '#home', label: 'Location de moyens de transports' },
+    { src: temple, href: '#home', label: 'Les temples' },
   ];
 
   return (
@@ -29,6 +29,7 @@ const Navbar = () => {
       {icons.map((item, index) => (
         <a key={index} href={item.href} className="icon-link" aria-label={item.label}>
           <img src={item.src} alt={item.label} className="icon" />
+          <span className="icon-description">{item.label}</span>
         </a>
       ))}
     </nav>

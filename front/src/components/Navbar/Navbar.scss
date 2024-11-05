@@ -1,13 +1,18 @@
 .navbar-icons {
   display: flex;
-  gap: 20px; /* Espacement entre les icônes */
+  gap: 45px; 
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background-color: #fff;
+  background-image: url(../../assets/background/fond_azure.svg);
+  background-size:cover;
+  background-position: top;
+  
+  
 
   .icon-link {
-    display: flex;
+    position: relative;
+    display: inline-block;
     justify-content: center;
     align-items: center;
 
@@ -17,8 +22,28 @@
       transition: transform 0.3s ease;
 
       &:hover {
-        transform: scale(1.3); 
+        transform: scale(1.4); 
       }
+    }
+    .icon-description {
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      position: absolute;
+      bottom: -55px; 
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 5px;
+      border-radius: 4px;
+      white-space: nowrap;
+      font-size: 1.8rem;
+    }
+
+    &:hover .icon-description {
+      visibility: visible;
+      opacity: 1;
     }
   }
 }

@@ -9,8 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
-    text-decoration: underline;
     padding-bottom: 28px;
   }
+}
+.page{
+  background-image: url(../../assets/background/fond_montagne.svg);
+  background-size:cover;
+  background-position:top;
+  
 }
