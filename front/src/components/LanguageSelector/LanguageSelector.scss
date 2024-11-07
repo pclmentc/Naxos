@@ -1,0 +1,50 @@
+.language-selector {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+
+    // Applique l'apparence active sur le bouton de la langue sélectionnée
+    &.active {
+      background-color: #4e73df;
+      color: white;
+    }
+
+    // Applique un style de survol pour tous les boutons
+    &:hover {
+      background-color: #ddd;
+      transform: scale(1.05);
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    // Le bouton de la langue non sélectionnée a un fond plus pâle
+    &:not(.active) {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    &:first-child {
+      background-color: #ff66c4;
+    }
+
+    &:last-child {
+      background-color: #5ce1e6;
+    }
+  }
+}
