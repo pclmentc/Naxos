@@ -1,6 +1,7 @@
 .navbar-icons {
   display: flex;
-  gap: 45px; 
+  flex-wrap: wrap;
+  gap: 3%; 
   justify-content: center;
   align-items: center;
   padding: 15px;
@@ -26,19 +27,21 @@
       }
     }
     .icon-description {
+      font-family: 'titre',sans-serif;
       visibility: hidden;
       opacity: 0;
       transition: opacity 0.3s ease;
       position: absolute;
       bottom: -55px; 
-      left: 50%;
+      left: 75%;
       transform: translateX(-50%);
       background-color: rgba(0, 0, 0, 0.8);
       color: #fff;
       padding: 5px;
       border-radius: 4px;
       white-space: nowrap;
-      font-size: 1.8rem;
+      font-size: 16px;
+      
     }
 
     &:hover .icon-description {
