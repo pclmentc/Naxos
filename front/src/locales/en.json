@@ -1,3 +1,14 @@
 {
-  "welcome": "Travel Agency"
+  "welcome": "Tourism Agency",
+  "navbar": {
+    "apollon": "Apollon Temple Gate",
+    "panneau": "Excursions and Guides",
+    "eglise": "Churches and Villages",
+    "croisieres": "Cruises",
+    "kouros": "Kouros Statue",
+    "experiences": "Experiences and Sharing",
+    "carafe": "Naxos Carafe",
+    "ane": "Transportation Rentals",
+    "temple": "The Temples"
+  }
 }

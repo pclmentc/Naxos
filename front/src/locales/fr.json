@@ -1,3 +1,15 @@
 {
-  "welcome": "Agence Touristique"
+  "welcome": "Agence Touristique",
+  
+  "navbar": {
+    "apollon": "Porte du temple Apollon",
+    "panneau": "Excursions et accompagnements",
+    "eglise": "Églises et villages",
+    "croisieres": "Croisières",
+    "kouros": "Statue de Kouros",
+    "experiences": "Expériences et partages",
+    "carafe": "Carafe de Naxos",
+    "ane": "Location de moyens de transports",
+    "temple": "Les temples"
+  }
 }

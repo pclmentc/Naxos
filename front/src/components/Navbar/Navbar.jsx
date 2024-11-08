@@ -1,4 +1,5 @@
 import './Navbar.scss';
+import { useLanguage } from '../../context/languageContext';
 
 // Importation des icônes personnalisées
 import apollon from '../../assets/icons/temple.webp';
@@ -12,16 +13,18 @@ import ane from '../../assets/icons/ane.webp';
 import temple from '../../assets/icons/templeNeuf.webp';
 
 const Navbar = () => {
+  const { translations } = useLanguage();
+
   const icons = [
-    { src: apollon, href: '#home', label: 'Porte du temple Apollon' },
-    { src: panneau, href: '#home', label: 'Excursions et accompagnements' },
-    { src: église, href: '#home', label: 'Eglises et villages' },
-    { src: croisieres, href: '#home', label: 'Croisieres' },
-    { src: kouros, href: '#home', label: 'Statue de Kouros' },
-    { src: experiences, href: '#home', label: 'Experiences et partages' },
-    { src: carafe, href: '#home', label: 'Carafe de naxos' },
-    { src: ane, href: '#home', label: 'Location de moyens de transports' },
-    { src: temple, href: '#home', label: 'Les temples' },
+    { src: apollon, href: '#home', label: translations.navbar.apollon },
+    { src: panneau, href: '#home', label: translations.navbar.panneau },
+    { src: église, href: '#home', label: translations.navbar.eglise },
+    { src: croisieres, href: '#home', label: translations.navbar.croisieres },
+    { src: kouros, href: '#home', label: translations.navbar.kouros },
+    { src: experiences, href: '#home', label: translations.navbar.experiences },
+    { src: carafe, href: '#home', label: translations.navbar.carafe },
+    { src: ane, href: '#home', label: translations.navbar.ane },
+    { src: temple, href: '#home', label: translations.navbar.temple },
   ];
 
   return (
