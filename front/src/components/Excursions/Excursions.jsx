@@ -21,7 +21,7 @@ const Excursions = () => {
             {/* Limite le texte à 100 caractères pour l'extrait */}
             <p>{theme.description.slice(0, 100)}...</p>
             <button onClick={() => openModal(theme)} className="read-more">
-              Lire la suite
+            {translations.readMore}
             </button>
           </div>
         ))}
