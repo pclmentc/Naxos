@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const icons = [
     { src: apollon, href: '#home', label: translations.navbar.apollon },
-    { src: panneau, href: '#home', label: translations.navbar.panneau },
+    { src: panneau, href: '#excursions', label: translations.navbar.panneau },
     { src: église, href: '#home', label: translations.navbar.eglise },
     { src: croisieres, href: '#home', label: translations.navbar.croisieres },
     { src: kouros, href: '#home', label: translations.navbar.kouros },

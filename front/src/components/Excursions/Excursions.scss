@@ -1,0 +1,139 @@
+.excursions {
+  padding: 2rem;
+  background-image: url('../../assets/background/fond_blanc.svg'); 
+  background-size: cover;
+  background-repeat: repeat; 
+  background-position: center; 
+  background-attachment: fixed;
+  @media (max-width: 680px) {
+    background-attachment: scroll;}
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+
+  .excursions-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .excursion-theme {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 300px;
+    height: auto; /* Ajuster la hauteur en fonction du contenu */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      color: #444;
+      margin-bottom: 0.75rem;
+    }
+
+    /* Extrait de texte avec transition douce */
+    p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 1rem;
+      line-height: 1.4;
+      max-height: 4.5em; /* Limite la hauteur pour l'extrait de texte */
+      overflow: hidden;
+      transition: max-height 0.5s ease-out; /* Transition douce pour l'expansion */
+    }
+
+    .read-more {
+      font-size: 0.9rem;
+      color: #007bff;
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-decoration: underline;
+      position: absolute;
+      bottom: 1.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Style de la modale */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding: 1rem;
+  }
+
+  .modal-content {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: #444;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 1.5rem;
+      color: #666;
+      cursor: pointer;
+
+      &:hover {
+        color: #333;
+      }
+    }
+  }
+}

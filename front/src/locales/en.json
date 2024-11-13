@@ -11,5 +11,31 @@
     "ane": "Transportation Rentals",
     "temple": "The Temples"
   },
-  "videoSection": "Let yourself be guided"
-}
+  "videoSection": "Let yourself be guided",
+
+  "title": "Excursions",
+
+    "themes": [
+      {
+        "title": "UNIQUE GUIDED SERVICE",
+        "description": "",
+        "image": ""
+      },
+      {
+        "title": "RETURN TO THE ROOTS",
+        "description": "",
+        "image": ""
+      },
+      {
+        "title": "GUIDED WALK AT SUNSET",
+        "description": "",
+        "image": ""
+      },
+      {
+        "title": "PRIVATE GUIDED EXCURSIONS",
+        "description": "",
+        "image": ""
+      }
+    ]
+  }
+  

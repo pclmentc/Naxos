@@ -1,0 +1,44 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;            /* Positionne le bouton à 20px du bas de l'écran */
+  right: 20px;             /* Positionne le bouton à 20px de la droite de l'écran */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;           /* Espace intérieur du bouton */
+  font-size: 2rem;         /* Taille de la flèche */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0.7;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1000;           /* Assure que le bouton reste au-dessus des autres éléments */
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;     /* Centre verticalement */
+  width: 60px;             /* Largeur du bouton */
+  height: 60px;            /* Hauteur du bouton */
+  text-align: center;      /* Assure que le texte est centré */
+  box-sizing: border-box;  /* Inclut le padding et la bordure dans la taille totale */
+
+  /* S'assurer que le bouton ne dépasse pas en version mobile */
+  right: calc(20px + 1rem); /* Garantir que le bouton reste à droite, ajustement avec calc() */
+
+  /* Effet au survol */
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1); /* Agrandit légèrement le bouton au survol */
+  }
+
+  /* Media query pour les petits écrans */
+  @media (max-width: 350px) {
+    right: 10px;           /* Réduit légèrement l'espace de marge à droite */
+    bottom: 10px;          /* Réduit l'espace de marge en bas */
+    width: 50px;           /* Réduit la taille du bouton */
+    height: 50px;          /* Réduit la taille du bouton */
+    font-size: 1.5rem;     /* Réduit la taille de la flèche à l'intérieur du bouton */
+  }
+  @media (max-width: 320px) {
+    right: 27px;           
+  }
+}
