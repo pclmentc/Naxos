@@ -4,8 +4,8 @@
   align-items: center;
   justify-content: center;
   background-image: url(../../assets/background/fond_montagne.svg);
-  background-size:cover;
-  background-position:center;
+  background-size: cover;
+  background-position: center;
   padding: 10px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
@@ -16,38 +16,22 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
+    background-color: #f4f4f4; // Couleur par défaut
+    color: #333;
 
-    // Applique l'apparence active sur le bouton de la langue sélectionnée
     &.active {
       background-color: #4e73df;
       color: white;
-    }
-
-    // Applique un style de survol pour tous les boutons
-    &:hover {
-      background-color: #ddd;
-      transform: scale(1.05);
+      box-shadow: 0px 0px 10px rgba(78, 115, 223, 0.5); // Surbrillance
+      transform: scale(1.1); // Léger agrandissement pour l'effet visuel
     }
 
     &:focus {
       outline: none;
     }
-
-    // Le bouton de la langue non sélectionnée a un fond plus pâle
-    &:not(.active) {
-      background-color: #f4f4f4;
-      color: #333;
-    }
-
-    &:first-child {
-      background-color: #ff66c4;
-    }
-
-    &:last-child {
-      background-color: #5ce1e6;
-    }
   }
-}
-img{
-  width: 36px;
+
+  img {
+    width: 36px;
+  }
 }
