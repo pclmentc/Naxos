@@ -38,5 +38,29 @@
       "description": "Composez votre propre expérience selon vos goûts, vos attraits et bénéficiez d'un accompagnement sur mesure pour organiser un parcours, incluant une visite guidée de la durée de votre choix :\n 4h ~6h ~8h",
       "image": "./src/assets/images/paysage4.png"
     }
-  ]
+  ],
+  "croisieres": {
+    "title": "Les Croisières",
+    "intro": "À la découverte des îles voisines",
+    "readMore": "Lire plus",
+    "cruises": [
+      {
+        "title": "Les Petites Cyclades : Ano / Kato Koufonissi / Grotte de Rina",
+        "images": [
+          "/images/koufonissi1.jpg",
+          "/images/koufonissi2.jpg",
+          "/images/koufonissi3.jpg"
+        ],
+        "description": "Détente, baignade et découverte sont au programme de cette croisière sur la Mer Égée, tout en bénéficiant d'un repas aux saveurs locales à bord.\nVous naviguez en direction du sud de Naxos en longeant la côte Est. Un 1er arrêt vous permet de nager à l'intérieur de la Grotte de Rina et d'explorer les fonds marins translucides, grâce au matériel de plongée en apnée fourni par l'équipage."
+      },
+      {
+        "title": "Iraklia / Ano Koufonissi",
+        "images": [
+          "/images/iraklia1.jpg",
+          "/images/iraklia2.jpg"
+        ],
+        "description": "Cette croisière vous donne l'occasion de découvrir, en toute liberté, le petit port de l'île sauvage d'Iraklia et de visiter l'île d'Ano Koufonissi, son village chaleureux et ses nombreuses plages bordant une eau cristalline d'une couleur azur."
+      }
+    ]
+  }
 }

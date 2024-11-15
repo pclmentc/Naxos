@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useLanguage } from '../../context/languageContext';
 import './Excursions.scss';
 
@@ -9,6 +9,15 @@ const Excursions = () => {
 
   const openModal = (theme) => setSelectedTheme(theme);
   const closeModal = () => setSelectedTheme(null);
+
+  // Gestion de la touche "Escape" pour fermer la modale
+  useEffect(() => {
+    const handleEscape = (e) => {
+      if (e.key === "Escape") closeModal();
+    };
+    document.addEventListener("keydown", handleEscape);
+    return () => document.removeEventListener("keydown", handleEscape);
+  }, []);
 
   return (
     <section className="excursions" id="excursions">

@@ -36,6 +36,31 @@
         "description": "Create your own experience according to your tastes, interests, and enjoy personalized guidance to organize a tour, including a guided visit for a duration of your choice:\n 4h ~6h ~8h.",
         "image": "./src/assets/images/paysage4.png"
       }
+    ],
+    "croisieres": {
+    "title": "The Cruises",
+    "intro": "Discover the neighboring islands",
+    "readMore": "Read more",
+    "cruises": [
+      {
+        "title": "The Small Cyclades: Ano / Kato Koufonissi / Rina Cave",
+        "images": [
+          "/images/koufonissi1.jpg",
+          "/images/koufonissi2.jpg",
+          "/images/koufonissi3.jpg"
+        ],
+        "description": "Relaxation, swimming, and exploration are on the program for this cruise on the Aegean Sea, while enjoying a meal with local flavors on board.\nYou sail south of Naxos along the eastern coast. A first stop allows you to swim inside the Rina Cave and explore the clear underwater world, thanks to snorkeling equipment provided by the crew."
+      },
+      {
+        "title": "Iraklia / Ano Koufonissi",
+        "images": [
+          "/images/iraklia1.jpg",
+          "/images/iraklia2.jpg"
+        ],
+        "description": "This cruise gives you the chance to freely explore the small port of the wild island of Iraklia and visit the island of Ano Koufonissi, its warm village, and its many beaches bordering azure crystalline water."
+      }
     ]
+  }
+    
   }
   
