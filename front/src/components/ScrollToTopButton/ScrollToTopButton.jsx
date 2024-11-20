@@ -30,7 +30,7 @@ const ScrollToTopButton = () => {
   return (
     isVisible && (
       <button onClick={scrollToTop} className="scroll-to-top">
-        ↑
+        ⇑
       </button>
     )
   );

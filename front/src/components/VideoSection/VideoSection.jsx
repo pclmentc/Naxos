@@ -6,7 +6,7 @@ const VideoSection = () => {
   return (
     <div className="video-section">
     <h2>{translations.videoSection}</h2>
-      <video controls width="350px" height="auto">
+      <video controls>
         <source src="./src/assets/vidéo/IntroNaxos.mp4" type="video/mp4" />
         Votre navigateur ne supporte pas la lecture vidéo.
       </video>
