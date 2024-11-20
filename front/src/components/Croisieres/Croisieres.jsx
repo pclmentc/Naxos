@@ -15,18 +15,18 @@ const Croisieres = () => {
 
   return (
     <section className="croisieres" id="croisieres">
-    <div className='introCroisieres'>
-      <h2>{data.title}</h2>
-      <p>{data.intro}</p>
-    </div>
+      <div className='introCroisieres'>
+        <h2>{data.title}</h2>
+        <p>{data.intro}</p>
+      </div>
 
       <div className="croisieres-container">
         {data.cruises.map((cruise, index) => (
           <div key={index} className="croisiere-item">
             <div className="croisiere-image-container">
               <img
-                src={images[index]?.src}
-                alt={images[index]?.alt}
+                src={images[index % images.length]?.src} // Utilise modulo pour éviter les erreurs
+                alt={images[index % images.length]?.alt} 
                 className="croisiere-image"
               />
             </div>
