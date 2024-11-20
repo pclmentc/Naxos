@@ -10,7 +10,7 @@ const Home = () => {
     <div className='page'>
 
     <section id="Home">
-      <img className='logo' src={logo} alt="Logo" style={{ width: '240px', height: 'auto' }} />      
+      <img className='logo' src={logo} alt="Logo" style={{ width: '215px', height: 'auto' }} />      
     </section>
 
     <section id='intro'>
