@@ -38,29 +38,35 @@
       }
     ],
     "croisieres": {
-    "title": "The Cruises",
-    "intro": "Discover the neighboring islands",
-    "readMore": "Read more",
-    "cruises": [
-      {
-        "title": "The Small Cyclades: Ano / Kato Koufonissi / Rina Cave",
-        "images": [
-          "/images/koufonissi1.jpg",
-          "/images/koufonissi2.jpg",
-          "/images/koufonissi3.jpg"
-        ],
-        "description": "Relaxation, swimming, and exploration are on the program for this cruise on the Aegean Sea, while enjoying a meal with local flavors on board.\nYou sail south of Naxos along the eastern coast. A first stop allows you to swim inside the Rina Cave and explore the clear underwater world, thanks to snorkeling equipment provided by the crew."
-      },
-      {
-        "title": "Iraklia / Ano Koufonissi",
-        "images": [
-          "/images/iraklia1.jpg",
-          "/images/iraklia2.jpg"
-        ],
-        "description": "This cruise gives you the chance to freely explore the small port of the wild island of Iraklia and visit the island of Ano Koufonissi, its warm village, and its many beaches bordering azure crystalline water."
-      }
-    ]
-  }
+  "title": "The Cruises",
+  "intro": "Discovering the neighboring islands",
+  "cruises": [
+    {
+      "title": "The Small Cyclades: Ano / Kato Koufonissi / Rina Cave",
+      "description": "Relaxation, swimming, and exploration are on the agenda for this cruise in the Aegean Sea.\nYou will head south of Naxos along the East coast.\nThe first stop allows you to swim inside the Rina Cave and explore the translucent underwater world."
+    },
+    {
+      "title": "Iraklia / Ano Koufonissi",
+      "description": "This cruise gives you the opportunity to explore, at your own pace, the small port of the wild island of Iraklia.\nVisit the island of Ano Koufonissi, its warm village, and the beaches lining crystal-clear waters."
+    },
+    {
+      "title": "Delos / Mykonos",
+      "description": "A combination that allows you to explore the island of Delos, an open-air museum and UNESCO World Heritage site (3 hours), and wander through the picturesque streets of Mykonos town, where the charming Little Venice and the famous windmills offer breathtaking views (4 hours).\nDeparture at 9:00 from the marina in Chora. Return at 18:50 in Naxos. (Times may vary +/- 15 min depending on the cruise operator)."
+    },
+    {
+      "title": "Mykonos",
+      "description": "Departure at 9:00 from the marina in Chora, arriving at 10:30 directly at the port in Mykonos town.\nFree day. Departure at 17:00, arrival in Naxos at 18:50. (Times may vary +/- 15 min depending on the cruise operator)."
+    },
+    {
+      "title": "Santorini",
+      "description": "Enjoy complete pick-up from your arrival at the port of Santorini, along with a guided tour (English & French). Explore the villages of Oia and Fira perched on the cliffs and take your time to walk while admiring the stunning view of the volcano from the spectacular caldera. (6h30).\nDeparture at 8:00 from the marina in Chora. Return at 19:50 in Naxos. (Times may vary +/- 15 min depending on the cruise operator)."
+    },
+    {
+      "title": "Paros",
+      "description": "Departure at 9:00 from the marina in Chora, arriving at 9:30 at the small port of the fishing village of Naoussa.\nFree day. Departure at 18:10, arrival in Naxos at 18:50. (Times may vary +/- 15 min depending on the cruise operator).\nIn case of cancellation due to bad weather conditions, the ticket price is fully refundable."
+    }
+  ]
+}
     
   }
   
