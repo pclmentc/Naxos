@@ -42,24 +42,30 @@
   "croisieres": {
     "title": "Les Croisières",
     "intro": "À la découverte des îles voisines",
-    "readMore": "Lire plus",
     "cruises": [
       {
         "title": "Les Petites Cyclades : Ano / Kato Koufonissi / Grotte de Rina",
-        "images": [
-          "/images/koufonissi1.jpg",
-          "/images/koufonissi2.jpg",
-          "/images/koufonissi3.jpg"
-        ],
-        "description": "Détente, baignade et découverte sont au programme de cette croisière sur la Mer Égée, tout en bénéficiant d'un repas aux saveurs locales à bord.\nVous naviguez en direction du sud de Naxos en longeant la côte Est. Un 1er arrêt vous permet de nager à l'intérieur de la Grotte de Rina et d'explorer les fonds marins translucides, grâce au matériel de plongée en apnée fourni par l'équipage."
+        "description": "Détente, baignade et découverte sont au programme de cette croisière sur la Mer Égée.\nVous naviguez en direction du sud de Naxos en longeant la côte Est.\nUn 1er arrêt vous permet de nager à l'intérieur de la Grotte de Rina et d'explorer les fonds marins translucides."
       },
       {
         "title": "Iraklia / Ano Koufonissi",
-        "images": [
-          "/images/iraklia1.jpg",
-          "/images/iraklia2.jpg"
-        ],
-        "description": "Cette croisière vous donne l'occasion de découvrir, en toute liberté, le petit port de l'île sauvage d'Iraklia et de visiter l'île d'Ano Koufonissi, son village chaleureux et ses nombreuses plages bordant une eau cristalline d'une couleur azur."
+        "description": "Cette croisière vous donne l'occasion de découvrir, en toute liberté, le petit port de l'île sauvage d'Iraklia.\nVisitez l'île d'Ano Koufonissi, son village chaleureux et ses plages bordant une eau cristalline."
+      },
+      {
+        "title": "Delos / Mykonos",
+        "description": "Un combiné qui vous permet d'explorer l'île de Delos, un musée antique à ciel ouvert faisant partie du patrimoine mondial de l'UNESCO (3h) et de flâner dans les ruelles pittoresques du centre ville de l'île de Mykonos où la ravissante Petite Venise et les célèbres moulins à vent, offrent une vue de toute beauté (4h).\nDépart à 9h00 de la marina à Chora. Retour à 18:50 à Naxos. (Les horaires peuvent varier +/- 15 min selon le croisiériste)."
+      },
+      {
+        "title": "Mykonos",
+        "description": "Départ à 9h00 de la marina à Chora, vous arrivez à 10:30 directement au port du centre ville de Mykonos.\nJournée libre. Départ 17:00, arrivée à Naxos à 18:50. (Les horaires peuvent varier +/- 15 min selon le croisiériste)."
+      },
+      {
+        "title": "Santorin",
+        "description": "Profitez d'une prise en charge totale depuis votre arrivée au port de Santorin, et d'une excursion guidée (anglais & français). Découvrez les villages, à flanc de roche, d'Oia et de Fira et prenez le temps de vous promener tout en admirant une vue des plus époustouflante sur le volcan, depuis la spectaculaire caldeira.(6h30).\nDépart à 8:00 de la marina à Chora. Retour 19:50 à Naxos. (Les horaires peuvent varier +/- 15 min selon le croisiériste)."
+      },
+      {
+        "title": "Paros",
+        "description": "Départ à 9h00 de la marina à Chora, vous arrivez à 9:30 au petit port du village de pêcheurs de Naoussa.\nJournée libre. Départ 18:10, arrivée à Naxos à 18:50. (Les horaires peuvent varier +/- 15 min selon le croisiériste).\nEn cas d'annulation en raison de mauvaises conditions météorologiques, le prix du billet est remboursable à 100%."
       }
     ]
   }
