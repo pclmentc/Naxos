@@ -13,6 +13,11 @@
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     color: #333;
+    max-width: 315px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 25px;
   }
 
   .excursions-container {
@@ -23,9 +28,10 @@
   }
 
   .excursion-theme {
+    cursor: pointer;
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 25px;
     padding: 1.5rem;
     width: 300px;
     height: auto; /* Ajuster la hauteur en fonction du contenu */
@@ -38,15 +44,15 @@
     justify-content: space-between;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     &:hover {
-      transform: scale(1.05);
+      transform: translateY(-5px);
       box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
     }
     img {
       width: 100%;
-      height: 200px;
+      height: 50%;
       object-fit: cover;
-      border-radius: 6px;
-      margin-bottom: 1rem;
+      border-radius: 10%;
+      
     }
 
     h3 {

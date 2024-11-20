@@ -24,14 +24,16 @@ const Excursions = () => {
       <h2>{data.title}</h2>
       <div className="excursions-container">
         {data.themes.map((theme, index) => (
-          <div key={index} className="excursion-theme">
+          <div
+            key={index}
+            className="excursion-theme"
+            onClick={() => openModal(theme)} // Clic sur toute la carte
+            role="button" // Rendre la carte accessible
+            tabIndex="0" // Rendre la carte focusable pour le clavier
+          >
             <img src={theme.image} alt={theme.title} />
             <h3>{theme.title}</h3>
-            {/* Limite le texte à 100 caractères pour l'extrait */}
             <p>{theme.description.slice(0, 100)}...</p>
-            <button onClick={() => openModal(theme)} className="read-more">
-            {translations.readMore}
-            </button>
           </div>
         ))}
       </div>
