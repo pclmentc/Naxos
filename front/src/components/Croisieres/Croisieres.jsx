@@ -15,21 +15,27 @@ const Croisieres = () => {
 
   return (
     <section className="croisieres" id="croisieres">
+    <div className='introCroisieres'>
       <h2>{data.title}</h2>
       <p>{data.intro}</p>
+    </div>
 
       <div className="croisieres-container">
         {data.cruises.map((cruise, index) => (
           <div key={index} className="croisiere-item">
-            <h3>{cruise.title}</h3>
-            <img
-              src={images[index]?.src}
-              alt={images[index]?.alt}
-              className="croisiere-image"
-            />
-            {cruise.description.split('\n').map((paragraph, idx) => (
-              <p key={idx}>{paragraph}</p>
-            ))}
+            <div className="croisiere-image-container">
+              <img
+                src={images[index]?.src}
+                alt={images[index]?.alt}
+                className="croisiere-image"
+              />
+            </div>
+            <div className="croisiere-content">
+              <h3>{cruise.title}</h3>
+              {cruise.description.split('\n').map((paragraph, idx) => (
+                <p key={idx}>{paragraph}</p>
+              ))}
+            </div>
           </div>
         ))}
       </div>
