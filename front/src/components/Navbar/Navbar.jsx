@@ -19,7 +19,7 @@ const Navbar = () => {
     { src: apollon, href: '#home', label: translations.navbar.apollon },
     { src: panneau, href: '#excursions', label: translations.navbar.panneau },
     { src: église, href: '#home', label: translations.navbar.eglise },
-    { src: croisieres, href: '#home', label: translations.navbar.croisieres },
+    { src: croisieres, href: '#croisieres', label: translations.navbar.croisieres },
     { src: kouros, href: '#home', label: translations.navbar.kouros },
     { src: experiences, href: '#home', label: translations.navbar.experiences },
     { src: carafe, href: '#home', label: translations.navbar.carafe },
