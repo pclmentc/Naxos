@@ -4,7 +4,7 @@ import { useLanguage } from '../../context/languageContext';
 // Importation des icônes personnalisées
 import apollon from '../../assets/icons/temple.png';
 import panneau from '../../assets/icons/panneau.webp';
-import église from '../../assets/icons/eglise.webp';
+import église from '../../assets/icons/eglise.png';
 import croisieres from '../../assets/icons/bateau.png';
 import kouros from '../../assets/icons/kouros.png';
 import experiences from '../../assets/icons/experience_et_partages.webp';

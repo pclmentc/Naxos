@@ -27,9 +27,9 @@ const Excursions = () => {
           <div
             key={index}
             className="excursion-theme"
-            onClick={() => openModal(theme)} // Clic sur toute la carte
-            role="button" // Rendre la carte accessible
-            tabIndex="0" // Rendre la carte focusable pour le clavier
+            onClick={() => openModal(theme)} 
+            role="button" 
+            tabIndex="0" 
           >
             <img src={theme.image} alt={theme.title} />
             <h3>{theme.title}</h3>
@@ -48,6 +48,7 @@ const Excursions = () => {
             {selectedTheme.description.split('\n').map((line, i) => (
               <p key={i}>{line}</p>
             ))}
+            <img src={selectedTheme.image1} />
           </div>
         </div>
       )}
