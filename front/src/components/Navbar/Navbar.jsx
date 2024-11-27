@@ -2,11 +2,11 @@ import './Navbar.scss';
 import { useLanguage } from '../../context/languageContext';
 
 // Importation des icônes personnalisées
-import apollon from '../../assets/icons/temple.webp';
+import apollon from '../../assets/icons/temple.png';
 import panneau from '../../assets/icons/panneau.webp';
 import église from '../../assets/icons/eglise.webp';
-import croisieres from '../../assets/icons/bateau.webp';
-import kouros from '../../assets/icons/kouros.webp';
+import croisieres from '../../assets/icons/bateau.png';
+import kouros from '../../assets/icons/kouros.png';
 import experiences from '../../assets/icons/experience_et_partages.webp';
 import carafe from '../../assets/icons/carafe_de_naxos.webp';
 import ane from '../../assets/icons/ane.webp';
