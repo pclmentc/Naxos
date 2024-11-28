@@ -2,6 +2,8 @@ import './Home.scss';
 import logo from '../../assets/images/logo.png';
 import Navbar from '../Navbar/Navbar';
 import { useLanguage } from '../../context/languageContext';
+import Langue from '../LanguageSelector/LanguageSelector';
+import VideoSection from '../VideoSection/VideoSection';
 
 const Home = () => {
   const { translations } = useLanguage();
@@ -10,14 +12,16 @@ const Home = () => {
     <div className='page'>
 
     <section id="Home">
-      <img className='logo' src={logo} alt="Logo" style={{ width: '215px', height: 'auto' }} />      
-    </section>
-
+      <img className='logo' src={logo} alt="Logo" style={{ width: '215px', height: 'auto' }} />    
     <section id='intro'>
-    <h1> {translations.welcome}</h1>
+      <h1> {translations.welcome1}</h1>
+      <p> {translations.welcome2}</p>
     </section>
-
+    <Langue />
+    </section>
     <Navbar />
+    <VideoSection/>
+    
 
     </div>
   );

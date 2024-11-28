@@ -1,23 +1,36 @@
 .video-section {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 40px;
-  gap: 15px;
-  background-image: url(../../assets/background/fond_montagne.svg);
-  background-size: cover;
-  background-attachment:fixed ;
-  
-  
-  
+  padding: 25px 40px;
+  gap: 85px;
+  @media screen and (max-width: 930px) {
+    flex-direction: column;
+    gap: 15px;
+}
+  .citation {
+    text-align: center;
+  }
+
+  .videoArticle{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @media screen and (max-width: 930px) {
+      width: 100%;
+  }
+  }
 h2{
   text-align: center;
-  
+  font-style: italic;
+  font-size: 28px;
+  color: black;
+
 }
   video {
-    width: 250px;
+    width: 185px;
     height: auto;
     border-radius: 15px;
     border: solid 3px white;

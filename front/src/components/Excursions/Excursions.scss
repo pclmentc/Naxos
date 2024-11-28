@@ -6,8 +6,6 @@
   background-position: center; 
   background-attachment: fixed;
   border: solid 2px white;
-  @media (max-width: 680px) {
-    background-attachment: scroll;}
 
   h2 {
     text-align: center;
@@ -15,7 +13,7 @@
     margin-bottom: 1.5rem;
     color: #333;
     max-width: 315px;
-    background-color: #ffffff;
+    background-color: #fffc;
     margin: 0 auto;
     padding: 10px;
     margin-bottom: 15px;
@@ -31,7 +29,7 @@
 
   .excursion-theme {
     cursor: pointer;
-    background-color: #fff;
+    background-color: #fffc;
     border: 1px solid #ddd;
     border-radius: 25px;
     padding: 1.5rem;
@@ -60,14 +58,14 @@
 
     h3 {
       font-size: 1.25rem;
-      color: #444;
+      color: #020202;
       margin-bottom: 0.75rem;
     }
 
     /* Extrait de texte avec transition douce */
     p {
-      font-size: 1rem;
-      color: #666;
+      font-size: 1.2rem;
+      color: #000000;
       margin-bottom: 1rem;
       line-height: 1.4;
       max-height: 4.5em; /* Limite la hauteur pour l'extrait de texte */

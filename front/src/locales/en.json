@@ -1,5 +1,7 @@
 {
-  "welcome": "Tourism Agency",
+  "welcome1": "NAXOS CONNECTION",
+  "welcome2": "Tourism Agency",
+
   "navbar": {
     "apollon": "Apollon Temple Gate",
     "panneau": "Excursions and Guides",
@@ -11,7 +13,8 @@
     "ane": "Transportation Rentals",
     "temple": "The Temples"
   },
-  "videoSection": "Let yourself be guided",
+  "videoSection": "''A trip is to go from oneself to oneself through others.''\nTouareg Proverb.",
+  "videoSection1": "Let yourself be guided in English",
   "title": "Excursions",
   "readMore": "Read more",
 

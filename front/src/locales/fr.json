@@ -1,5 +1,6 @@
 {
-  "welcome": "Agence Touristique",
+  "welcome1": "NAXOS CONNECTION",
+  "welcome2": "Agence Touristique",
   
   "navbar": {
     "apollon": "Porte du temple Apollon",
@@ -13,7 +14,10 @@
     "temple": "Les temples"
   },
 
-  "videoSection": "Laissez-vous guider",
+  "videoSection": "''Le voyage c'est aller de soi à soi en passant par les autres.''\n Proverbe Touareg.",
+  "videoSection1": "Laissez vous guider en français",
+
+
   "title": "Les Excursions",
   "readMore": "Lire la suite",
 
