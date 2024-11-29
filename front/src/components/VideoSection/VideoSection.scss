@@ -37,3 +37,35 @@ h2{
     box-shadow: 0 6px 10px rgb(3, 67, 73);
   }
 }
+.photoPort{
+  width: 80%;
+  height: 550px;
+  text-align: center;
+  background-image: url(../../assets/background/croisière.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  padding-top: 45px;
+  margin: 0 auto;
+  border-radius: 55px;
+  @media screen and (max-width: 930px) {
+    background-attachment: local;
+    width: auto;
+    border-radius: 0;
+}
+  p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    background-color: rgba(255, 255, 255, 0.683);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 25px;
+    @media screen and (max-width: 930px) {
+      width: 100%;
+      font-size: 40px;
+      border-radius: 0%;
+  }
+  }
+}
