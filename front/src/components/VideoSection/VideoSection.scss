@@ -39,7 +39,7 @@ h2{
 }
 .photoPort{
   width: 80%;
-  height: 550px;
+  height: 450px;
   text-align: center;
   background-image: url(../../assets/background/croisière.jpg);
   background-size: contain;
@@ -47,10 +47,8 @@ h2{
   background-attachment: fixed;
   padding-top: 45px;
   margin: 0 auto;
-  border-radius: 55px;
   @media screen and (max-width: 930px) {
     background-attachment: local;
-    width: auto;
     border-radius: 0;
 }
   p{
@@ -63,7 +61,6 @@ h2{
     margin: 0 auto;
     border-radius: 25px;
     @media screen and (max-width: 930px) {
-      width: 100%;
       font-size: 40px;
       border-radius: 0%;
   }

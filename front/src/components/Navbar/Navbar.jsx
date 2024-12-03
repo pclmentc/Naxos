@@ -16,15 +16,15 @@ const Navbar = () => {
   const { translations } = useLanguage();
 
   const icons = [
-    { src: apollon, href: '#home', label: translations.navbar.apollon },
+    { src: apollon, label: translations.navbar.apollon },
     { src: panneau, href: '#excursions', label: translations.navbar.panneau },
-    { src: église, href: '#home', label: translations.navbar.eglise },
+    { src: église, label: translations.navbar.eglise },
     { src: croisieres, href: '#croisieres', label: translations.navbar.croisieres },
-    { src: kouros, href: '#home', label: translations.navbar.kouros },
+    { src: kouros, label: translations.navbar.kouros },
     { src: experiences, href: '#home', label: translations.navbar.experiences },
-    { src: carafe, href: '#home', label: translations.navbar.carafe },
+    { src: carafe, label: translations.navbar.carafe },
     { src: ane, href: '#home', label: translations.navbar.ane },
-    { src: temple, href: '#home', label: translations.navbar.temple },
+    { src: temple, label: translations.navbar.temple },
   ];
 
   return (

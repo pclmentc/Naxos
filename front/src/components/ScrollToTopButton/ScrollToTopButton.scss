@@ -21,9 +21,6 @@
   text-align: center;      /* Assure que le texte est centré */
   box-sizing: border-box;  /* Inclut le padding et la bordure dans la taille totale */
 
-  /* S'assurer que le bouton ne dépasse pas en version mobile */
-  right: calc(20px + 1rem); /* Garantir que le bouton reste à droite, ajustement avec calc() */
-
   /* Effet au survol */
   &:hover {
     opacity: 1;
