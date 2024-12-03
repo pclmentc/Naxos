@@ -50,6 +50,7 @@ h2{
   @media screen and (max-width: 930px) {
     background-attachment: local;
     border-radius: 0;
+    margin-bottom: -62px;
 }
   p{
     color: black;
@@ -63,6 +64,15 @@ h2{
     @media screen and (max-width: 930px) {
       font-size: 40px;
       border-radius: 0%;
+      position: relative;
+      top: 225px;
+      width: 100%;
   }
+  @media screen and (max-width: 480px) {
+    top: 190px;
+}
+@media screen and (max-width: 370px) {
+  top: 150px;
+}
   }
 }
