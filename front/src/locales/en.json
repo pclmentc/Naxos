@@ -44,48 +44,48 @@
         "categories": [
         {
           "title": "KASTRO / PORTE DU TEMPLE D'APOLLON A CHORA",
-          "image": "./src/assets/images/kastro.png",
-          "image1": "./src/assets/images/kastro-1.png"
+          "image": "./src/assets/images/kastro.jpg"
+          
         },
         {
           "title": "POTERIE TRADITIONNELLE / PRESSE OLIVES",
-          "image": "./src/assets/images/poterie.png",
-          "image1": "./src/assets/images/presse-olives.png"
+          "image": "./src/assets/images/poterie.jpg",
+          "image1": "./src/assets/images/presse-olives.jpg"
         },
         {
           "title": "TEMPLE DE DEMETER",
-          "image": "./src/assets/images/temple-demeter.png"
+          "image": "./src/assets/images/temple-demeter.jpg"
         },
         {
           "title": "CHALKI / DISTILLERIE DE KITRON",
-          "image": "./src/assets/images/chalki.png",
-          "image1": "./src/assets/images/distillerie-kitron.png"
+          "image": "./src/assets/images/chalki.jpg",
+          "image1": "./src/assets/images/distillerie-citron.jpg"
         },
         {
           "title": "ÉGLISE BYZANTINE PANAGIA DROSSIANI",
-          "image": "./src/assets/images/panagia-drossiani.png"
+          "image": "./src/assets/images/panagia-drossiani.jpg"
         },
         {
           "title": "FILOTI",
-          "image": "./src/assets/images/filoti.png"
+          "image": "./src/assets/images/filoti.jpg"
         },
         {
           "title": "APEIRANTHOS",
-          "image": "./src/assets/images/apeiranthos.png"
+          "image": "./src/assets/images/apeiranthos.jpg"
         },
         {
           "title": "KOUROS DE FLERIO / SOURCE DE MILI",
-          "image": "./src/assets/images/kouros-flerio.png",
-          "image1": "./src/assets/images/source-mili.png"
+          "image": "./src/assets/images/kouros-flerio.jpg",
+          "image1": "./src/assets/images/source-mili.jpg"
         },
         {
           "title": "APOLONNAS / KOUROS",
-          "image": "./src/assets/images/apolonnas.png",
-          "image1": "./src/assets/images/kouros.png"
+          "image": "./src/assets/images/apolonnas.jpg",
+          "image1": "./src/assets/images/kouros.jpg"
         },
         {
           "title": "MUSÉE PRESSE OLIVES",
-          "image": "./src/assets/images/musee-presse-olives.png"
+          "image": "./src/assets/images/musee-presse-olives.jpg"
         }
       ]
       }
