@@ -123,5 +123,10 @@
         "description": "Départ à 9h00 de la marina à Chora, vous arrivez à 9:30 au petit port du village de pêcheurs de Naoussa.\nJournée libre. Départ 18:10, arrivée à Naxos à 18:50. (Les horaires peuvent varier +/- 15 min selon le croisiériste).\nEn cas d'annulation en raison de mauvaises conditions météorologiques, le prix du billet est remboursable à 100%."
       }
     ]
+  },
+    "location": {
+      "title": "Location de véhicule",
+      "intro": "Vous souhaitez un accompagnement pour louer un véhicule, un scooter où un quad, avec une livraison au port où bien sur votre lieu de résidence à Naxos ?",
+      "p":"N'hésitez pas à me contacter pour toutes demandes d'informations et effectuer votre réservation."
+    }
   }
-}

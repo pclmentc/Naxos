@@ -119,7 +119,11 @@
       "description": "Departure at 9:00 from the marina in Chora, arriving at 9:30 at the small port of the fishing village of Naoussa.\nFree day. Departure at 18:10, arrival in Naxos at 18:50. (Times may vary +/- 15 min depending on the cruise operator).\nIn case of cancellation due to bad weather conditions, the ticket price is fully refundable."
     }
   ]
-}
-    
+},
+  "location": {
+    "title": "Transportation Rentals",
+    "intro": "Do you want assistance in renting a vehicle, scooter, or quad, with delivery to the port or to your residence in Naxos?",
+    "p":"Feel free to contact me for any information requests and to make your reservation."
   }
+}
   

@@ -23,7 +23,7 @@ const Navbar = () => {
     { src: kouros, label: translations.navbar.kouros },
     { src: experiences, href: '#home', label: translations.navbar.experiences },
     { src: carafe, label: translations.navbar.carafe },
-    { src: ane, href: '#home', label: translations.navbar.ane },
+    { src: ane, href: '#location', label: translations.navbar.ane },
     { src: temple, label: translations.navbar.temple },
   ];
 
