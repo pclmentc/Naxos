@@ -118,6 +118,12 @@
       height: auto;
       border-radius: 8px;
       margin-bottom: 1rem;
+      @media screen and (max-width: 480px) {
+        width: 320px;
+    }
+    @media screen and (max-width: 375px) {
+      width: 250px;
+  }
     }
 
     h3 {
