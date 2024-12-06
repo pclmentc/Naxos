@@ -1,4 +1,4 @@
-
+import 'leaflet/dist/leaflet.css';
 import './styles/App.scss';
 import Home from './components/Home/Home';
 import Excursions from './components/Excursions/Excursions';
