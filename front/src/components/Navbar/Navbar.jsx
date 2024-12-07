@@ -1,7 +1,7 @@
+import React, { useState, useEffect } from 'react';
 import './Navbar.scss';
 import { useLanguage } from '../../context/languageContext';
 
-// Importation des icônes personnalisées
 import apollon from '../../assets/icons/temple.png';
 import panneau from '../../assets/icons/panneau.webp';
 import église from '../../assets/icons/eglise.png';
@@ -14,6 +14,16 @@ import temple from '../../assets/icons/templeNeuf.webp';
 
 const Navbar = () => {
   const { translations } = useLanguage();
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 930);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 930);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const icons = [
     { src: apollon, label: translations.navbar.apollon },
@@ -27,10 +37,12 @@ const Navbar = () => {
     { src: temple, label: translations.navbar.temple },
   ];
 
+  const filteredIcons = isMobile ? icons.filter(item => item.href) : icons;
+
   return (
     <nav className="navbar-icons">
-      {icons.map((item, index) => (
-        <a key={index} href={item.href} className="icon-link" aria-label={item.label}>
+      {filteredIcons.map((item, index) => (
+        <a key={index} href={item.href || '#'} className="icon-link" aria-label={item.label}>
           <img src={item.src} alt={item.label} className="icon" />
           <span className="icon-description">{item.label}</span>
         </a>
