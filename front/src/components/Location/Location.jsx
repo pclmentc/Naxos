@@ -24,7 +24,7 @@ const Location = () => {
         <MapContainer
           center={location}
           zoom={13}
-          style={{ height: "400px", width: "400px", borderRadius: "5px" }}
+          style={{ height: "100%", width: "100%", borderRadius: "5px" }}
         >
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
