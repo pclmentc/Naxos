@@ -167,6 +167,20 @@
       "text": "Écoutez un artiste passionné vous conter l'histoire et l'art de la sculpture du marbre et réalisez votre propre chef-d'œuvre.",
       "img": "./src/assets/carrousel/sculpture.jpg"
     }
-  ]
+  ],
+  "footer": {
+    "contact": "Contactez-nous",
+    "name": "Votre nom",
+    "email": "Votre email",
+    "message": "Votre message",
+    "send": "Envoyer",
+    "info": "Informations",
+    "phone": "Téléphone :",
+    "emailInfo": "Email :",
+    "social": "Suivez-nous sur :",
+    "legal": "Mentions légales",
+    "rights": "© 2024 Naxos. Tous droits réservés.",
+    "legalLink": "Consultez nos mentions légales"
+  }
 }
   

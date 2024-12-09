@@ -6,6 +6,7 @@ import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton'
 import Croisieres from './components/Croisieres/Croisieres';
 import Location from './components/Location/Location';
 import Experience from './components/Experience/Experience';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Croisieres/>
       <Location/>
       <Experience/>
+      <Footer/>
     </>
   );
 }

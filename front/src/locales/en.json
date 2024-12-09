@@ -162,7 +162,21 @@
     "text": "Listen to a passionate artist tell you the story and art of marble sculpting and create your own masterpiece.",
     "img": "./src/assets/carrousel/sculpture.jpg"
   }
-]
+],
+"footer": {
+    "contact": "Contact Us",
+    "name": "Your name",
+    "email": "Your email",
+    "message": "Your message",
+    "send": "Send",
+    "info": "Information",
+    "phone": "Phone:",
+    "emailInfo": "Email:",
+    "social": "Follow us on:",
+    "legal": "Legal Notice",
+    "rights": "© 2024 Naxos. All rights reserved.",
+    "legalLink": "View our legal notice"
+  }
 
 }
 
