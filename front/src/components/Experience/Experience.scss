@@ -1,18 +1,34 @@
 .experience {
+  padding: 2rem;
   text-align: center;
-  margin: 2rem;
   position: relative;
-
+  background-image: url(../../assets/background/fond_mozzaique.svg);
+  
   h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #744fdd; /* Couleur plus dynamique */
+
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 25px;
+  background-color: #f8fbfa;
+  color: #333333;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+  @media screen and (max-width: 595px) {
+    width: 100%;
+  }
   }
 
   p {
     font-size: 1.2rem;
     margin: 1rem 0;
     color: #555;
+    background-color: #f8fbfadf;
+    border-radius: 25px;
+    padding: 10px;
+    
 
     em {
       font-style: italic;
@@ -21,18 +37,21 @@
   }
 
   .card {
-    width: 100%;
+    width: 50%;
     height: 100%;
-    padding-top: 25px;
     text-align: center;
     transition: transform 0.5s ease, opacity 0.5s ease;
     background-color: #f8f8f8;
     background-image: url('path_to_background_image.jpg');
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative; /* Nécessaire pour que les boutons soient positionnés relativement à la carte */
+    position: relative; 
+    margin: 0 auto;
+    @media screen and (max-width: 1280px) {
+      width: 100%;
+    }
 
     &:hover {
       opacity: 0.9;
@@ -50,7 +69,7 @@
     }
 
     p {
-      padding-block: 60px;
+      padding-block: 30px;
       width: 50%;
       margin: 0 auto;
       font-size: 1.2rem;
@@ -62,17 +81,19 @@
       }
 
       @media screen and (max-width: 375px) {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
     }
 
     img {
+      border-radius: 15px;
       width: 350px;
-      height: 300px;
+      height: auto;
       object-fit: contain;
+      padding-bottom: 5px;
 
       @media screen and (max-width: 375px) {
-        max-width: 250px;
+        max-width: 240px;
       }
     }
   }
@@ -98,19 +119,33 @@
   }
 
   .carousel .control-prev {
-    left: 20px !important;
+    left: 30%;
     top: 50%;
+    @media screen and (max-width: 830px) {
+      left: 5%
+    }
+    @media screen and (max-width: 564px) {
+      left: 2%;
+      top: 59%;
+    }
   }
 
   .carousel .control-next {
-    right: 20px !important;
+    right: 30%;
     top: 50%;
+    @media screen and (max-width: 830px) {
+      right: 5%
+    }
+    @media screen and (max-width: 564px) {
+      right: 2%;
+      top: 59%;
+    }
   }
 
   /* Ajuster le positionnement des boutons sur les petites tailles d'écran */
   @media screen and (max-width: 375px) {
     .carousel .control-prev, .carousel .control-next {
-      top: 92%;
+      top: 85%;
     }
   }
 }
@@ -119,4 +154,14 @@
   right: 50%;
   font-size: 20px;
   color: #cacefa;
+}
+.textSlide{
+  width: 65%;
+  margin: 0 auto;
+  @media screen and (max-width: 1070px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 375px) {
+    width: 100%;
+  }
 }

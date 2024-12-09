@@ -62,17 +62,17 @@ h2{
     margin: 0 auto;
     border-radius: 25px;
     @media screen and (max-width: 930px) {
-      font-size: 40px;
-      border-radius: 0%;
+      font-size: 38px;
       position: relative;
       top: 225px;
       width: 100%;
+      padding-block: 10px;
   }
   @media screen and (max-width: 480px) {
     top: 190px;
 }
-@media screen and (max-width: 370px) {
-  top: 150px;
+@media screen and (max-width: 375px) {
+  top: 175px;
 }
   }
 }

@@ -12,16 +12,19 @@ const Experience = () => {
   return (
     <section className="experience" id="experience">
       <h1>{content.title}</h1>
+      <div className="textSlide">
       <p>
         {content.quote} <em>— {content.quoteAuthor}</em>
       </p>
       <p>{content.cta}</p>
+      </div>
       <Carousel infiniteLoop autoPlay showThumbs={false}>
         {slides.map((slide, index) => (
           <div key={index} className="card">
             <h3>{slide.title}</h3>
             <img src={slide.img} alt={slide.title} />
             <p>{slide.text}</p>
+            
             
           </div>
         ))}

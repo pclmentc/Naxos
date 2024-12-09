@@ -138,7 +138,7 @@
   },
   "slides": [
     {
-      "title": "Pêche traditionnelle (6h30):",
+      "title": " Pêche traditionnelle (6h30):",
       "text": "Vivez l'expérience d'une pêche traditionnelle au filet, au côté d'un équipage professionnel, tout en profitant d'une croisière le long des côtes de Naxos où des petites Cyclades. Baignez-vous le temps de la préparation du repas, à base des poissons fraîchement pêchés, que vous dégustez à bord.",
       "img": "./src/assets/carrousel/peche.jpg"
     },
@@ -148,7 +148,7 @@
       "img": "./src/assets/carrousel/Viticole.jpg"
     },
     {
-      "title": "Distillerie de Kitron - Promponas  (1h/1h30):",
+      "title": " Distillerie de Kitron  'Promponas'  (1h/1h30):",
       "text": "Visite des lieux, explications et présentation des différentes étapes de distillation du Kitron, cette liqueur 'made in Naxos', accompagnée d'une riche dégustation. Option Master class de cocktails à base de Kitron.",
       "img": "./src/assets/carrousel/Kitron.jpg"
     },
@@ -163,7 +163,7 @@
       "img": "./src/assets/carrousel/coursPoterie.jpg"
     },
     {
-      "title": "Sculpture sur Marbre (2h):",
+      "title": " Sculpture sur Marbre (2h):",
       "text": "Écoutez un artiste passionné vous conter l'histoire et l'art de la sculpture du marbre et réalisez votre propre chef-d'œuvre.",
       "img": "./src/assets/carrousel/sculpture.jpg"
     }
