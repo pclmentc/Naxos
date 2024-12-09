@@ -5,6 +5,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  @media screen and (max-width: 691px) {
+    background-image: url(../../assets/background/fondSable3bis.jpg);
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: contain;
+}
 
   h2 {
     text-align: center;

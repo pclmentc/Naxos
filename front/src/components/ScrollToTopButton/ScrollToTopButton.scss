@@ -28,23 +28,23 @@
   }
 
   /* Media query pour les petits écrans */
+  @media (max-width: 920px) {
+    right: 120px;           
+  }
+  @media (max-width: 680px) {
+    right: 112px;           
+  }
+  @media (max-width: 420px) {
+    right: 115px;           
+  }
+  @media (max-width: 375px) {
+    right: 108px;
+}
   @media (max-width: 350px) {
-    right: 30px;           /* Réduit légèrement l'espace de marge à droite */
+    right: 65px;           /* Réduit légèrement l'espace de marge à droite */
     bottom: 10px;          /* Réduit l'espace de marge en bas */
     width: 50px;           /* Réduit la taille du bouton */
     height: 50px;          /* Réduit la taille du bouton */
     font-size: 1.5rem;     /* Réduit la taille de la flèche à l'intérieur du bouton */
-  }
-  @media (max-width: 320px) {
-    right: 50px;           
-  }
-  @media (max-width: 420px) {
-    right: 85px;           
-  }
-  @media (max-width: 680px) {
-    right: 50px;           
-  }
-  @media (max-width: 920px) {
-    right: 100px;           
-  }
+  }  
 }

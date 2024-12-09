@@ -9,6 +9,12 @@
   background-size:cover;
   background-position: top;
   border: solid 2px white;
+  @media screen and (max-width: 930px) {
+    justify-content: space-between;
+}
+@media screen and (max-width: 350px) {
+  flex-wrap: nowrap;
+}
   
   
 
@@ -49,6 +55,9 @@
       visibility: visible;
       opacity: 1;
       z-index: 1000;
+      @media screen and (max-width: 768px) {
+        visibility: hidden;
+    }
     }
   }
 }

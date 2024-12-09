@@ -28,7 +28,6 @@
 .croisieres {
   padding: 2rem;
   background-image: url(../../assets/background/fond_azure.svg);
-  background-attachment: fixed;
   background-size:cover;
   text-align: center;
 
@@ -39,6 +38,7 @@
   }
   p{
     color: #333333;
+    
   }
 
   .croisieres-container {
@@ -54,7 +54,6 @@
       display: flex;
       margin-top: 15px;
       background-image: url(../../assets/background/fond_montagne.svg);
-      background-attachment: fixed;
       padding: 0.5rem;
       border: solid 3px white;
       border-radius: 25px;
@@ -81,7 +80,7 @@
       }
 
       p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 1.4;
         margin-bottom: 1rem;
         color: #666;
