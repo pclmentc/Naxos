@@ -31,7 +31,7 @@ const Navbar = () => {
     { src: église, label: translations.navbar.eglise },
     { src: croisieres, href: '#croisieres', label: translations.navbar.croisieres },
     { src: kouros, label: translations.navbar.kouros },
-    { src: experiences, href: '#home', label: translations.navbar.experiences },
+    { src: experiences, href: '#experience', label: translations.navbar.experiences },
     { src: carafe, label: translations.navbar.carafe },
     { src: ane, href: '#location', label: translations.navbar.ane },
     { src: temple, label: translations.navbar.temple },

@@ -5,6 +5,7 @@ import Excursions from './components/Excursions/Excursions';
 import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton';
 import Croisieres from './components/Croisieres/Croisieres';
 import Location from './components/Location/Location';
+import Experience from './components/Experience/Experience';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Excursions/>
       <Croisieres/>
       <Location/>
+      <Experience/>
     </>
   );
 }

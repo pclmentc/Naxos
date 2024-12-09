@@ -1,0 +1,122 @@
+.experience {
+  text-align: center;
+  margin: 2rem;
+  position: relative;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #744fdd; /* Couleur plus dynamique */
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #555;
+
+    em {
+      font-style: italic;
+      color: #bf75f8;
+    }
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    text-align: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    background-color: #f8f8f8;
+    background-image: url('path_to_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Nécessaire pour que les boutons soient positionnés relativement à la carte */
+
+    &:hover {
+      opacity: 0.9;
+    }
+
+    h3 {
+      padding-block: 35px;
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+      color: #333;
+
+      @media screen and (max-width: 375px) {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      padding-block: 60px;
+      width: 50%;
+      margin: 0 auto;
+      font-size: 1.2rem;
+      text-align: center;
+      color: #777;
+
+      @media screen and (max-width: 768px) {
+        width: 80%;
+      }
+
+      @media screen and (max-width: 375px) {
+        font-size: 1rem;
+      }
+    }
+
+    img {
+      width: 350px;
+      height: 300px;
+      object-fit: contain;
+
+      @media screen and (max-width: 375px) {
+        max-width: 250px;
+      }
+    }
+  }
+
+  /* Positionner les boutons en bas (absolu) */
+  .carousel .control-prev, .carousel .control-next {
+    background-color: #7c87f4;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: absolute !important;
+    
+    &:hover {
+      background-color: #FF66C4;
+    }
+
+    &::before {
+      font-size: 2rem;
+      color: white;
+    }
+  }
+
+  .carousel .control-prev {
+    left: 20px !important;
+    top: 50%;
+  }
+
+  .carousel .control-next {
+    right: 20px !important;
+    top: 50%;
+  }
+
+  /* Ajuster le positionnement des boutons sur les petites tailles d'écran */
+  @media screen and (max-width: 375px) {
+    .carousel .control-prev, .carousel .control-next {
+      top: 92%;
+    }
+  }
+}
+
+.carousel .carousel-status {
+  right: 50%;
+  font-size: 20px;
+  color: #cacefa;
+}

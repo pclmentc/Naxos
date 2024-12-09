@@ -124,6 +124,46 @@
     "title": "Transportation Rentals",
     "intro": "Do you want assistance in renting a vehicle, scooter, or quad, with delivery to the port or to your residence in Naxos?",
     "p":"Feel free to contact me for any information requests and to make your reservation."
+  },
+  "experience": {
+  "title": "EXPERIENCES & SHARING",
+  "quote": "Travel is going from oneself to oneself through others",
+  "quoteAuthor": "Tuareg Proverb",
+  "cta": "Contact me to book your next experience and for any further information."
+},
+"slides": [
+  {
+    "title": "Traditional Fishing (6h30):",
+    "text": "Experience traditional net fishing alongside a professional crew while enjoying a cruise along the coasts of Naxos and the Small Cyclades. Swim while the meal, made from freshly caught fish, is being prepared, which you will then enjoy on board.",
+    "img": "./src/assets/carrousel/peche.jpg"
+  },
+  {
+    "title": "Saint Anna Vineyard (2h):",
+    "text": "Visit the vineyard, the St Anna chapel dating from the 9th century, and the estate's cellar where the winemaking process is explained, followed by a tasting of different wines.",
+    "img": "./src/assets/carrousel/Viticole.jpg"
+  },
+  {
+    "title": "Kitron Distillery - Promponas (1h/1h30):",
+    "text": "Visit the site, learn about and discover the different steps of Kitron distillation, this liqueur 'made in Naxos', accompanied by a rich tasting. Master class option on cocktails made with Kitron.",
+    "img": "./src/assets/carrousel/Kitron.jpg"
+  },
+  {
+    "title": "Cooking Class (4h):",
+    "text": "Prepare several typical dishes using local knowledge that you will proudly enjoy after a guided tour of the agricultural lands by the owner.",
+    "img": "./src/assets/carrousel/Cuisine.jpg"
+  },
+  {
+    "title": "Pottery Class (1h):",
+    "text": "Shape, mold, and feel... Transform a noble material with your own hands according to local tradition and keep the memory of a unique piece.",
+    "img": "./src/assets/carrousel/coursPoterie.jpg"
+  },
+  {
+    "title": "Marble Sculpting (2h):",
+    "text": "Listen to a passionate artist tell you the story and art of marble sculpting and create your own masterpiece.",
+    "img": "./src/assets/carrousel/sculpture.jpg"
   }
+]
+
 }
+
   
