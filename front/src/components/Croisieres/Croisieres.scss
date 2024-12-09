@@ -1,9 +1,12 @@
 .introCroisieres{
-  background-color: #fffc;
+  background-color: #f8fbfa;
   border-radius: 25px;
   max-width: 450px;
   margin: 0 auto;
   padding-bottom: 15px;
+  padding: 15px;
+  text-align: center;
+  border: solid 2px;
 }
 .croisiere-content{
   width: 70%;
@@ -27,9 +30,6 @@
 }
 .croisieres {
   padding: 2rem;
-  background-image: url(../../assets/background/fond_azure.svg);
-  background-size:cover;
-  text-align: center;
 
   h2 {
     font-size: 2.5rem;
@@ -51,9 +51,9 @@
   }
 
     .croisiere-item {
+      background-color: #efeae2;
       display: flex;
       margin-top: 15px;
-      background-image: url(../../assets/background/fond_montagne.svg);
       padding: 0.5rem;
       border: solid 3px white;
       border-radius: 25px;
@@ -76,6 +76,7 @@
       .croisiere-image {
         width: 100%;
         height: auto;
+        border: solid 2px #dacbb2;
         border-radius: 50%;
       }
 

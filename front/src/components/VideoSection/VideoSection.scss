@@ -47,10 +47,15 @@ h2{
   background-attachment: fixed;
   padding-top: 45px;
   margin: 0 auto;
+  
   @media screen and (max-width: 930px) {
     background-attachment: local;
     border-radius: 0;
-    margin-bottom: -62px;
+    margin-bottom: -20px;
+}
+
+@media screen and (max-width: 375px) {
+  margin-bottom: -245px;
 }
   p{
     color: black;
@@ -72,7 +77,8 @@ h2{
     top: 190px;
 }
 @media screen and (max-width: 375px) {
-  top: 175px;
+  top: -10px;
+
 }
   }
 }

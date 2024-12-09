@@ -1,10 +1,12 @@
 .excursions {
   padding: 2rem;
-  border: solid 2px white;
+  border: solid 2px transparent;
   background-image: url(../../assets/background/fondSable3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  border-radius: 25px;
+
   @media screen and (max-width: 691px) {
     background-image: url(../../assets/background/fondSable3bis.jpg);
     background-attachment: scroll;
@@ -23,6 +25,7 @@
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 25px;
+    border: solid 2px;
   }
 
   .excursions-container {

@@ -3,6 +3,7 @@
   justify-content:space-around;
   align-items: center;
   padding: 15px 40px;
+
   @media screen and (max-width: 930px) {
       flex-direction: column;
   }
@@ -27,9 +28,6 @@
   }
 }
 .page{
-  background-image: url(../../assets/background/fond_montagne.svg);
-  background-size:cover;  
-  background-attachment:fixed ;
   padding-bottom: 2%;
   @media screen and (max-width: 691px) {
     background-attachment: scroll;

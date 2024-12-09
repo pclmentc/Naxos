@@ -1,4 +1,8 @@
-
+html{
+  background-image: url(../../src/assets/background/fond_azure.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @font-face {
   font-family: 'titre';
   src: url('../assets/fonts/poppins.light.ttf') format('truetype');
@@ -13,4 +17,5 @@ h1, h2, h3, h4 {
 
 body, p, span {
   font-size: 28px;
+
 }
