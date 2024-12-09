@@ -1,9 +1,13 @@
+import { useState } from 'react';
 import { useLanguage } from '../../context/languageContext';
 import './Footer.scss';
 
 const Footer = () => {
   const { translations } = useLanguage();
   const footerContent = translations.footer;
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const toggleModal = () => setModalOpen(!isModalOpen);
 
   return (
     <footer className="footer">
@@ -31,10 +35,36 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__legal">
-        <h2><img src="./favicon.png" alt="Legal icon" className="footer__legal-icon" />
-        <a href="/mentions-legales">{footerContent.legal}</a></h2>
+        <h2>
+          <button className="footer__legal-link" onClick={toggleModal}>
+            {footerContent.legal}
+          </button>
+          <img src="./favicon.png" alt="Legal icon" className="footer__legal-icon" />
+        </h2>
         <p>{footerContent.rights}</p>
       </div>
+      {isModalOpen && (
+        <div className="modal">
+          <div className="modal__content">
+            <button className="modal__close" onClick={toggleModal}>
+              &times;
+            </button>
+            <h2>{footerContent.legal}</h2>
+            <div className="modal__legal-content">
+              <h2>{footerContent.legalSections.editor.title}</h2>
+              <p>{footerContent.legalSections.editor.content}</p>
+              <h2>{footerContent.legalSections.hosting.title}</h2>
+              <p>{footerContent.legalSections.hosting.content}</p>
+              <h2>{footerContent.legalSections.ip.title}</h2>
+              <p>{footerContent.legalSections.ip.content}</p>
+              <h2>{footerContent.legalSections.data.title}</h2>
+              <p>{footerContent.legalSections.data.content}</p>
+              <h2>{footerContent.legalSections.responsibility.title}</h2>
+              <p>{footerContent.legalSections.responsibility.content}</p>
+            </div>
+          </div>
+        </div>
+      )}
     </footer>
   );
 };

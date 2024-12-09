@@ -174,8 +174,31 @@
     "emailInfo": "Email:",
     "social": "Follow us on:",
     "legal": "Legal Notice",
-    "rights": "© 2024 Naxos. All rights reserved.",
-    "legalLink": "View our legal notice"
+    "rights": "© 2024 Naxos Connexion. All rights reserved.",
+    "legalLink": "View our legal notice",
+    "legalSections": {
+  "editor": {
+    "title": "Website Publisher",
+    "content": "Company name: Your Company..."
+  },
+  "hosting": {
+    "title": "Hosting Provider",
+    "content": "Hosting provider: ..."
+  },
+  "ip": {
+    "title": "Intellectual Property",
+    "content": "All content on this site..."
+  },
+  "data": {
+    "title": "Data Protection",
+    "content": "In accordance with the GDPR..."
+  },
+  "responsibility": {
+    "title": "Responsibility",
+    "content": "The publisher strives to provide..."
+  }
+}
+
   }
 
 }

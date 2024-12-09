@@ -179,8 +179,31 @@
     "emailInfo": "Email :",
     "social": "Suivez-nous sur :",
     "legal": "Mentions légales",
-    "rights": "© 2024 Naxos. Tous droits réservés.",
-    "legalLink": "Consultez nos mentions légales"
+    "rights": "© 2024 Naxos Connexion. Tous droits réservés.",
+    "legalLink": "Consultez nos mentions légales",
+    "legalSections": {
+    "editor": {
+      "title": "Éditeur du site",
+      "content": "Nom de l’entreprise : Votre Entreprise..."
+    },
+    "hosting": {
+      "title": "Hébergeur",
+      "content": "Nom de l’hébergeur : ..."
+    },
+    "ip": {
+      "title": "Propriété intellectuelle",
+      "content": "Tous les contenus présents sur ce site..."
+    },
+    "data": {
+      "title": "Protection des données",
+      "content": "Conformément au RGPD..."
+    },
+    "responsibility": {
+      "title": "Responsabilité",
+      "content": "L’éditeur s’efforce de fournir..."
+    }
+    
+  }
   }
 }
   
