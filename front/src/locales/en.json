@@ -179,24 +179,25 @@
     "legalSections": {
   "editor": {
     "title": "Website Publisher",
-    "content": "Company name: Your Company..."
+    "content": "Pierre Clément-Colas"
   },
   "hosting": {
-    "title": "Hosting Provider",
-    "content": "Hosting provider: ..."
-  },
-  "ip": {
-    "title": "Intellectual Property",
-    "content": "All content on this site..."
-  },
-  "data": {
-    "title": "Data Protection",
-    "content": "In accordance with the GDPR..."
-  },
-  "responsibility": {
-    "title": "Responsibility",
-    "content": "The publisher strives to provide..."
-  }
+  "title": "Host",
+  "content": "Titania Gaming"
+},
+"ip": {
+  "title": "Intellectual Property",
+  "content": "All content on this site, including but not limited to text, images, videos, logos, graphics, trademarks, software, and other elements, are the exclusive property of Naxos Connection or their respective authors. These elements are protected by copyright and other intellectual property laws. Any reproduction, distribution, modification, or exploitation, even partial, of these contents without the express permission of Naxos Connection is prohibited. Unauthorized use may constitute a violation of intellectual property laws and result in civil and criminal penalties. For any request for reproduction or use of the content, please contact Naxos Connection at [contact email]."
+},
+"data": {
+  "title": "Data Protection",
+  "content": "In accordance with the General Data Protection Regulation (GDPR), Naxos Connection is committed to protecting the privacy and security of its users' personal data. This privacy policy explains what information is collected, how it is used, and the rights you have regarding your personal data."
+},
+"responsibility": {
+  "title": "Responsibility",
+  "content": "We implement appropriate technical and organizational measures to ensure the security and confidentiality of your personal data."
+}
+
 }
 
   }

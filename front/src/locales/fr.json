@@ -184,23 +184,23 @@
     "legalSections": {
     "editor": {
       "title": "Éditeur du site",
-      "content": "Nom de l’entreprise : Votre Entreprise..."
+      "content": "Pierre Clément-Colas"
     },
     "hosting": {
       "title": "Hébergeur",
-      "content": "Nom de l’hébergeur : ..."
+      "content": "Titania Gaming"
     },
     "ip": {
       "title": "Propriété intellectuelle",
-      "content": "Tous les contenus présents sur ce site..."
+      "content": "Tous les contenus présents sur ce site, incluant, sans limitation, les textes, images, vidéos, logos, graphiques,marques, logiciels, et autres éléments, sont la propriété exclusive de Naxos Connection ou de leurs auteurs respectifs. Ces éléments sont protégés par le droit d’auteur et d'autres législations relatives à la propriété intellectuelle. Toute reproduction, distribution, modification, ou exploitation, même partielle, de ces contenus sans autorisation expresse de Naxos Connection est interdite. Toute utilisation non autorisée pourrait constituer une violation des lois sur la propriété intellectuelle et entraîner des sanctions civiles et pénales.Pour toute demande de reproduction ou d'utilisation des contenus, veuillez contacter Naxos Connection à [adresse email de contact]."
     },
     "data": {
       "title": "Protection des données",
-      "content": "Conformément au RGPD..."
+      "content": "Conformément au Règlement Général sur la Protection des Données (RGPD), Naxos Connection s'engage à protéger la confidentialité et la sécurité des données personnelles de ses utilisateurs. La présente politique de confidentialité explique quelles informations sont collectées, comment elles sont utilisées et les droits dont vous disposez concernant vos données personnelles."
     },
     "responsibility": {
       "title": "Responsabilité",
-      "content": "L’éditeur s’efforce de fournir..."
+      "content": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour garantir la sécurité et la confidentialité de vos données personnelles."
     }
     
   }
