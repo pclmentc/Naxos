@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="info__card">
             <p><strong>Entreprise:</strong> en cours..</p>
             <p><strong>{footerContent.phone}</strong> +33 6 09 33 58 37</p>            
-            <p><strong>{footerContent.emailInfo}</strong> contact@example.com</p>
+            <p><strong>{footerContent.emailInfo}</strong> naxosconnection@gmail.com</p>
             <div className="info__socials">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Visitez notre page Facebook">
                 <FaFacebookF />
