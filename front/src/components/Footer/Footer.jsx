@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useLanguage } from '../../context/languageContext';
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaViber } from 'react-icons/fa';
 import './Footer.scss';
 
 const Footer = () => {
@@ -15,21 +16,31 @@ const Footer = () => {
         <div className="footer__contact">
           <h2>{footerContent.contact}</h2>
           <form>
-            <input type="text" placeholder={footerContent.name} required />
-            <input type="email" placeholder={footerContent.email} required />
-            <textarea placeholder={footerContent.message} required></textarea>
-            <button type="submit">{footerContent.send}</button>
+            <input type="text" placeholder={footerContent.name} required aria-label="votre nom" />
+            <input type="email" placeholder={footerContent.email} required aria-label="votre email"/>
+            <textarea placeholder={footerContent.message} required aria-label="votre texte"></textarea>
+            <button type="submit" aria-label="Envoyer votre message">{footerContent.send}</button>
           </form>
         </div>
         <div className="footer__info">
           <h2>{footerContent.info}</h2>
           <div className="info__card">
-            <p><strong>{footerContent.phone}</strong> +33 6 00 00 00 00</p>
+            <p><strong>Entreprise:</strong> en cours..</p>
+            <p><strong>{footerContent.phone}</strong> +33 6 09 33 58 37</p>            
             <p><strong>{footerContent.emailInfo}</strong> contact@example.com</p>
             <div className="info__socials">
-              <a href="https://facebook.com">Facebook</a>
-              <a href="https://twitter.com">Twitter</a>
-              <a href="https://instagram.com">Instagram</a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Visitez notre page Facebook">
+                <FaFacebookF />
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Visitez notre page Instagram">
+                <FaInstagram />
+              </a>
+              <a href="https://wa.me" target="_blank" rel="noopener noreferrer" aria-label="Contactez-nous sur WhatsApp">
+                <FaWhatsapp />
+              </a>
+              <a href="https://www.viber.com/fr/" target="_blank" rel="noopener noreferrer" aria-label="Contactez-nous sur Viber">
+                <FaViber />
+              </a>
             </div>
           </div>
         </div>
@@ -48,8 +59,7 @@ const Footer = () => {
           <div className="modal__content">
             <button className="modal__close" onClick={toggleModal}>
               &times;
-            </button>
-            <h2>{footerContent.legal}</h2>
+            </button>            
             <div className="modal__legal-content">
               <h2>{footerContent.legalSections.editor.title}</h2>
               <p>{footerContent.legalSections.editor.content}</p>

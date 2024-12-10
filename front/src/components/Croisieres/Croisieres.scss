@@ -19,6 +19,10 @@
   @media screen and (max-width: 930px) {
     width: 90%;
 }
+@media screen and (max-width: 375px) {
+  width: 100%;
+  text-align: center;
+}
 }
 .croisiere-image {
   width: 100%; 
@@ -27,6 +31,9 @@
   max-height: 250px;
   object-fit: cover;
   border: solid 2px white; 
+  &-container{
+    margin: 0 auto;
+  }
 }
 .croisieres {
   padding: 2rem;
@@ -46,6 +53,7 @@
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
+
     @media screen and (max-width: 930px) {
       width: 100%;
   }

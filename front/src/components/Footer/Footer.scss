@@ -1,4 +1,7 @@
 .footer {
+  background-image: url(../../assets/background/fond_bleuNuance.svg);
+  background-size: cover;
+  background-position: center;
   background-color: #efeae2;
   padding-top: 45px;
 
@@ -19,13 +22,15 @@
     flex: 1;
     min-width: 300px;
     border: solid 2px white;
-    border-radius: 5px;
-    padding: 15px;
+    border-radius: 25px;
+    padding: 30px;
     background-color: #e7f2f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
     h2 {
       font-size: 1.5rem;
-      margin-bottom: 10px;
+      margin-bottom: 25px;
+
     }
 
     form {
@@ -45,9 +50,10 @@
       button {
         background-color: #007bff;
         color: #fff;
-        border: none;
+        border: solid 2px black;
         cursor: pointer;
         transition: background-color 0.3s ease;
+        font-size: 2rem;
 
         &:hover {
           background-color: #0056b3;
@@ -57,17 +63,19 @@
 
     .info__socials {
       display: flex;
-      flex-direction: column;
-      margin-top: 10px;
+      margin-top: 30px;
+      gap: 25px;
 
       a {
         display: inline-block;
         margin-right: 10px;
-        color: #007bff;
         text-decoration: none;
+        font-size: 3rem;
+        color: rgb(156, 152, 93);
 
         &:hover {
-          text-decoration: underline;
+          color: #5CE1E6; // couleur au survol
+
         }
       }
     }
