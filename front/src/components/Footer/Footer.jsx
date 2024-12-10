@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="footer__main">
         <div className="footer__contact">
           <h2>{footerContent.contact}</h2>
-          <form>
+          <form action="https://formspree.io/f/{form_id}" method="POST">
             <input type="text" placeholder={footerContent.name} required aria-label="votre nom" />
             <input type="email" placeholder={footerContent.email} required aria-label="votre email"/>
             <textarea placeholder={footerContent.message} required aria-label="votre texte"></textarea>
