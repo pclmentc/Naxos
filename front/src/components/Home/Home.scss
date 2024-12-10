@@ -6,6 +6,7 @@
 
   @media screen and (max-width: 930px) {
       flex-direction: column;
+      gap: 15px;
   }
   
   .logo{
@@ -15,6 +16,9 @@
 }
 
 #intro {
+  background-color: #ffffffb2;
+  border-radius: 15px;
+  padding: 10px;
   h1{
     font-size: 40px;
     text-align: center;
