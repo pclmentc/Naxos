@@ -65,6 +65,9 @@
       display: flex;
       margin-top: 30px;
       gap: 25px;
+      @media (max-width: 375px) {
+        gap: 18px;
+      }
 
       a {
         display: inline-block;

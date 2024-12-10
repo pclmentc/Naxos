@@ -34,11 +34,14 @@
   @media (max-width: 680px) {
     right: 112px;           
   }
+  @media (max-width: 480px) {
+    right: 72px;           
+  }
   @media (max-width: 420px) {
-    right: 115px;           
+    right: 72px;           
   }
   @media (max-width: 375px) {
-    right: 108px;
+    right: 68px;
 }
   @media (max-width: 350px) {
     right: 65px;           /* Réduit légèrement l'espace de marge à droite */
