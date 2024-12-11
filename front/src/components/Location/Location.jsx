@@ -15,7 +15,6 @@ const Location = () => {
       <h2 className="section-title">{data.title}</h2>
       <div className='texte'>
       <p className="section-intro">{data.intro}</p>
-      <p className="section-p">{data.p}</p>
       </div>
 
       <div className='carte'>

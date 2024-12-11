@@ -12,7 +12,7 @@ const Home = () => {
     <div className='page'>
 
     <section id="Home">
-      <img className='logo' src={logo} alt="Logo Naxos Connection" style={{ width: '215px', height: 'auto' }} />    
+      <img className='logo' src={logo} alt="Logo Naxos Connection" style={{ width: '250px', height: 'auto' }} />    
     <section id='intro'>
       <h1> {translations.welcome1}</h1>
       <p> {translations.welcome2}</p>
