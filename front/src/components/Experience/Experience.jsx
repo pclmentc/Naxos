@@ -13,9 +13,6 @@ const Experience = () => {
     <section className="experience" id="experience">
       <h1>{content.title}</h1>
       <div className="textSlide">
-      <p>
-        {content.quote} <em>— {content.quoteAuthor}</em>
-      </p>
       <p>{content.cta}</p>
       </div>
       <Carousel infiniteLoop autoPlay showThumbs={false}>

@@ -7,7 +7,7 @@ const VideoSection = () => {
     <div>
     <div className="video-section">
       <article className='videoArticle'>
-      <h2>{translations.videoSection}</h2>
+      <h2>{translations.videoSection} <em>— {translations.quoteAuthor}</em></h2>
       </article>
       <video controls>
         <source src="./src/assets/vidéo/IntroNaxos.mp4" type="video/mp4" />

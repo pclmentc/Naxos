@@ -13,8 +13,8 @@
     "ane": "Location de moyens de transports",
     "temple": "Les temples"
   },
-
-  "videoSection": "''Le voyage c'est aller de soi à soi en passant par les autres.''\n Proverbe Touareg.",
+  "videoSection": "Le voyage c'est aller de soi à soi en passant par les autres",
+  "quoteAuthor": "Proverbe Touareg",
   "videoSection1": "Laissez-vous guider en français",
 
 
@@ -132,8 +132,6 @@
     
     "experience": {
     "title": "EXPÉRIENCES & PARTAGES",
-    "quote": "Le voyage c'est aller de soi à soi en passant par les autres",
-    "quoteAuthor": "Proverbe Touareg",
     "cta": "Contactez-moi pour réserver votre prochaine expérience et pour toutes informations supplémentaires."
   },
   "slides": [
