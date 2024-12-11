@@ -86,7 +86,7 @@ const Footer = () => {
               onChange={handleChange}
               aria-label="votre nom"
             />
-            {formErrors.name && <div className="error-message">Le nom est requis.</div>}
+            {formErrors.name && <div className="error-message">Nom est requis.</div>}
 
             <input
               type="email"
@@ -97,7 +97,7 @@ const Footer = () => {
               onChange={handleChange}
               aria-label="votre email"
             />
-            {formErrors.email && <div className="error-message">L'email est invalide.</div>}
+            {formErrors.email && <div className="error-message">Email invalide.</div>}
 
             <input
               type="tel"
@@ -119,7 +119,7 @@ const Footer = () => {
               onChange={handleChange}
               aria-label="votre hébergement"
             />
-            {formErrors.location && <div className="error-message">L'emplacement est requis.</div>}
+            {formErrors.location && <div className="error-message">Emplacement est requis.</div>}
 
             <textarea
               name="message"
