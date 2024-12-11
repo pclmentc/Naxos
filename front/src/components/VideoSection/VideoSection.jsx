@@ -15,7 +15,17 @@ const VideoSection = () => {
       </video>
     </div>
     <div className='photoPort'>
-    <p className='citation'>{translations.videoSection1}</p>
+    <p
+  className="citation"
+  dangerouslySetInnerHTML={{
+    __html: translations.videoSection1.replace(
+      "en français",
+      "&nbsp;<strong class='highlighted-text'>en français</strong>"
+    ),
+  }}
+></p>
+
+
     </div>
     </div>
   );
