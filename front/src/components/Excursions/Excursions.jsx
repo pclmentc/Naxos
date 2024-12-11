@@ -66,7 +66,7 @@ const Excursions = () => {
             {/* Affichage des catégories si elles existent */}
             {selectedTheme.categories && (
               <div className="categories">
-                <h4>Catégories :</h4>
+                <h4>Vos options :</h4>
                 <div className="categories-container">
                   {selectedTheme.categories.map((category, index) => (
                     <div
