@@ -7,21 +7,147 @@ const Footer = () => {
   const { translations } = useLanguage();
   const footerContent = translations.footer;
   const [isModalOpen, setModalOpen] = useState(false);
+  const [isFormValid, setFormValid] = useState(false);
+  
+  // Expressions régulières pour validation
+  const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+  const regexPhone = /^[0-9]{10}$/; // Pour un téléphone français classique (10 chiffres)
+  
+  // États pour chaque champ
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    location: '',
+    message: ''
+  });
+
+  const [formErrors, setFormErrors] = useState({
+    name: false,
+    email: false,
+    phone: false,
+    location: false,
+    message: false
+  });
 
   const toggleModal = () => setModalOpen(!isModalOpen);
+
+  const validateField = (field, value) => {
+    let error = false;
+    switch (field) {
+      case 'name':
+        error = value.trim() === '';
+        break;
+      case 'email':
+        error = !regexEmail.test(value);
+        break;
+      case 'phone':
+        error = !regexPhone.test(value);
+        break;
+      case 'location':
+        error = value.trim() === '';
+        break;
+      case 'message':
+        error = value.trim() === '';
+        break;
+      default:
+        break;
+    }
+    return error;
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevData => ({ ...prevData, [name]: value }));
+    
+    // Validation du champ lors de la saisie
+    const error = validateField(name, value);
+    setFormErrors(prevErrors => ({ ...prevErrors, [name]: error }));
+
+    // Vérification de la validité du formulaire
+    const isValid = Object.keys(formErrors).every(key => !formErrors[key]) &&
+                    Object.values(formData).every(field => field.trim() !== '');
+    setFormValid(isValid);
+  };
 
   return (
     <footer className="footer">
       <div className="footer__main">
         <div className="footer__contact">
           <h2>{footerContent.contact}</h2>
+
           <form action="https://formspree.io/f/{form_id}" method="POST">
-            <input type="text" placeholder={footerContent.name} required aria-label="votre nom" />
-            <input type="email" placeholder={footerContent.email} required aria-label="votre email"/>
-            <textarea placeholder={footerContent.message} required aria-label="votre texte"></textarea>
-            <button type="submit" aria-label="Envoyer votre message">{footerContent.send}</button>
+            <input
+              type="text"
+              name="name"
+              value={formData.name}
+              placeholder={footerContent.name}
+              required
+              onChange={handleChange}
+              aria-label="votre nom"
+            />
+            {formErrors.name && <div className="error-message">Le nom est requis.</div>}
+
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              placeholder={footerContent.email}
+              required
+              onChange={handleChange}
+              aria-label="votre email"
+            />
+            {formErrors.email && <div className="error-message">L'email est invalide.</div>}
+
+            <input
+              type="tel"
+              name="phone"
+              value={formData.phone}
+              placeholder={footerContent.tel}
+              required
+              onChange={handleChange}
+              aria-label="votre téléphone"
+            />
+            {formErrors.phone && <div className="error-message">Le téléphone doit contenir 10 chiffres.</div>}
+
+            <input
+              type="text"
+              name="location"
+              value={formData.location}
+              placeholder={footerContent.loc}
+              required
+              onChange={handleChange}
+              aria-label="votre hébergement"
+            />
+            {formErrors.location && <div className="error-message">L'emplacement est requis.</div>}
+
+            <textarea
+              name="message"
+              value={formData.message}
+              placeholder={footerContent.message}
+              required
+              onChange={handleChange}
+              aria-label="votre texte"
+            />
+            {formErrors.message && <div className="error-message">Le message est requis.</div>}
+
+            <button
+              type="submit"
+              disabled={!isFormValid}
+              aria-label="Envoyer votre message"
+            >
+              {footerContent.send}
+            </button>
           </form>
+
+          {/* Message d'indication */}
+          {!isFormValid && (
+            <div className="modal__message">
+              {footerContent.formIncompleteMessage || "Veuillez remplir tous les champs correctement avant de soumettre le formulaire."}
+            </div>
+          )}
         </div>
+
         <div className="footer__info">
           <h2>{footerContent.info}</h2>
           <div className="info__card">
@@ -45,6 +171,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
       <div className="footer__legal">
         <h2>
           <button className="footer__legal-link" onClick={toggleModal}>
@@ -54,6 +181,7 @@ const Footer = () => {
         </h2>
         <p>{footerContent.rights}</p>
       </div>
+
       {isModalOpen && (
         <div className="modal">
           <div className="modal__content">
@@ -72,6 +200,16 @@ const Footer = () => {
               <h2>{footerContent.legalSections.responsibility.title}</h2>
               <p>{footerContent.legalSections.responsibility.content}</p>
             </div>
+
+            {/* Message d'indication */}
+            <div className="modal__message">
+              {footerContent.legalModalMessage || "Le bouton sera activé après la validation de certaines étapes. Merci de votre patience."}
+            </div>
+
+            {/* Bouton désactivé */}
+            <button className="footer__legal-link" disabled>
+              {footerContent.legal}
+            </button>
           </div>
         </div>
       )}

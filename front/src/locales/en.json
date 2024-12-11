@@ -166,6 +166,8 @@
     "contact": "Contact Us",
     "name": "Your name",
     "email": "Your email",
+    "tel": "Your phone",
+    "loc": "your accommodation",
     "message": "Your message",
     "send": "Send",
     "info": "Information",

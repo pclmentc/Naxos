@@ -170,6 +170,8 @@
     "contact": "Contactez-nous",
     "name": "Votre nom",
     "email": "Votre email",
+    "tel": "votre numéro de téléphone",
+    "loc": "votre lieu d'hébergement",
     "message": "Votre message",
     "send": "Envoyer",
     "info": "Informations",
