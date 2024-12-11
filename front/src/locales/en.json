@@ -13,7 +13,8 @@
     "ane": "Transportation Rentals",
     "temple": "The Temples"
   },
-  "videoSection": "''A trip is to go from oneself to oneself through others.''\nTouareg Proverb.",
+  "videoSection": "Travel is going from oneself to oneself through others",
+  "quoteAuthor": "Tuareg Proverb",
   "videoSection1": "Let yourself be guided",
   "title": "Excursions",
   "readMore": "Read more",
@@ -127,8 +128,6 @@
   },
   "experience": {
   "title": "EXPERIENCES & SHARING",
-  "quote": "Travel is going from oneself to oneself through others",
-  "quoteAuthor": "Tuareg Proverb",
   "cta": "Contact me to book your next experience and for any further information."
 },
 "slides": [
