@@ -1,16 +1,24 @@
 import { useLanguage } from '../../context/languageContext';
 import './Croisieres.scss';
+import croisiere1 from '../../assets/images/croisiere1.jpg';
+import croisiere2 from '../../assets/images/croisiere2.jpg';
+import croisiere3 from '../../assets/images/croisiere3.jpg';
+import croisiere4 from '../../assets/images/croisiere4.jpg';
+import croisiere5 from '../../assets/images/croisiere5.jpg';
+import croisiere6 from '../../assets/images/croisiere6.jpg';
 
 const Croisieres = () => {
   const { translations } = useLanguage();
   const data = translations.croisieres;
+
+  
   const images = [
-    { src: '/images/croisiere1.jpg', alt: 'Les Petites Cyclades' },
-    { src: '/images/croisiere2.jpg', alt: 'Iraklia' },
-    { src: '/images/croisiere3.jpg', alt: 'Delos et Mykonos' },
-    { src: '/images/croisiere4.jpg', alt: 'Mykonos' },
-    { src: '/images/croisiere5.jpg', alt: 'Santorin' },
-    { src: '/images/croisiere6.jpg', alt: 'Paros' }
+  { src: croisiere1, alt: 'Les Petites Cyclades' },
+  { src: croisiere2, alt: 'Iraklia' },
+  { src: croisiere3, alt: 'Delos et Mykonos' },
+  { src: croisiere4, alt: 'Mykonos' },
+  { src: croisiere5, alt: 'Santorin' },
+  { src: croisiere6, alt: 'Paros' },
   ];
 
   return (
