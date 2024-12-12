@@ -33,7 +33,7 @@ const Croisieres = () => {
           <div key={index} className="croisiere-item">
             <div className="croisiere-image-container">
               <img
-                src={images[index % images.length]?.src} // Utilise modulo pour éviter les erreurs
+                src={images[index % images.length]?.src} 
                 alt={images[index % images.length]?.alt} 
                 className="croisiere-image"
               />

@@ -15,6 +15,7 @@ const Excursions = () => {
   };
 
   const openCategoryModal = (category) => setSelectedCategory(category);
+  
 
   // Gestion de la touche "Escape" pour fermer la modale
   useEffect(() => {
