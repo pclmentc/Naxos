@@ -1,14 +1,14 @@
 .excursions {
   padding: 2rem;
   border: solid 2px transparent;
-  background-image: url(../../assets/background/fondSable3.jpg);
+  background-image: url(../../assets/background/fondSable3.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   border-radius: 25px;
 
   @media screen and (max-width: 691px) {
-    background-image: url(../../assets/background/fondSable3bis.jpg);
+    background-image: url(../../assets/background/fondSable3bis.webp);
     background-attachment: scroll;
     background-repeat: repeat;
     background-size: contain;

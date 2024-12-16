@@ -89,9 +89,10 @@
         text-decoration: none;
         font-size: 3rem;
         color: rgb(156, 152, 93);
+        transition: transform 0.1s ease-in-out;
 
         &:hover {
-          color: #5CE1E6; // couleur au survol
+          transform: scale(1.2);
         }
       }
     }

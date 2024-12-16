@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="footer__contact">
           <h2>{footerContent.contact}</h2>
 
-          <form action="https://formspree.io/f/{form_id}" method="POST">
+          <form action="https://formspree.io/f/xpwzgqbe" method="POST">
             <input
               type="text"
               name="name"
@@ -223,7 +223,7 @@ const Footer = () => {
             {footerContent.legal}
           </button>
           <img
-            src="./favicon.png"
+            src="./favicon.webp"
             alt="Legal icon"
             className="footer__legal-icon"
           />
