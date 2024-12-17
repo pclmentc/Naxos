@@ -1,11 +1,11 @@
 import { useLanguage } from '../../context/languageContext';
 import './Croisieres.scss';
-import croisiere1 from '../../assets/images/croisiere1.webp';
-import croisiere2 from '../../assets/images/croisiere2.webp';
-import croisiere3 from '../../assets/images/croisiere3.webp';
-import croisiere4 from '../../assets/images/croisiere4.webp';
-import croisiere5 from '../../assets/images/croisiere5.webp';
-import croisiere6 from '../../assets/images/croisiere6.webp';
+import croisiere1 from '../../assets/croisieres/croisiere1.webp';
+import croisiere2 from '../../assets/croisieres/croisiere2.webp';
+import croisiere3 from '../../assets/croisieres/croisiere3.webp';
+import croisiere4 from '../../assets/croisieres/croisiere4.webp';
+import croisiere5 from '../../assets/croisieres/croisiere5.webp';
+import croisiere6 from '../../assets/croisieres/croisiere6.webp';
 
 const Croisieres = () => {
   const { translations } = useLanguage();
