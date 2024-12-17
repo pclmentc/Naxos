@@ -24,70 +24,70 @@
       {
         "title": "UNIQUE GUIDED SERVICE",
         "description": "Accompanying you on an excursion on the island of Naxos represents a moment of sharing, exchange, and communion.\nIt is about passing on my knowledge and what I am passionate about; promoting human, cultural, and historical values; engaging with traditions; respecting and being attentive to the environment around us, and marveling at everything that is offered to us.\nContact me for any information.",
-        "image": "./src/assets/images/paysage1.png",
-        "image1": "./src/assets/images/isabelle.jpg"
+        "image": "/images/paysage1.webp",
+        "image1": "/images/isabelle.webp"
       },
       {
         "title": "RETURN TO THE ROOTS",
         "description": "Let’s leave the capital and head towards the center of the island.\nFirst, let’s stop at the Traditional Pottery workshop in the village of Damalas, and discover a craft passed down from generation to generation.\nA few meters from this emblematic place, an old Olive Press takes us back in time, revealing the secrets of oil production from the past.\nLet’s continue our journey to the typical village of Chalki.\nObserve the Venetian balconies, the flower-lined streets, the artisan shops, and let’s taste the famous Kitron liqueur at the distillery.\nNext, we head towards the marble village of Apeiranthos, passing through the village of Filoti at the foot of Mount Zeus, allowing us to admire a magnificent panorama from the heights.\nWe then bypass the impressive Marble Quarry, before taking a culinary tasting break at a local taverna.\nThe digestive walk that follows our meal reveals one of the island’s Water Springs, located in the heart of the charming little village of Mili.\nFinally, before returning to the port, we visit the Kouros of Flerio, the timeless statue over 3000 years old.\nDuration: approximately 7 hours / about 8 people\nIncluded: Transfer / Guide / Meal.\nRates: \n-Adult: 135€/p\n -Child (6~12 years): 60€/p\nContact me to make your reservation and for any additional information.",
-        "image": "./src/assets/images/paysage2.webp",
-      "image1": "./src/assets/images/retour.webp"
+        "image": "/images/paysage2.webp",
+      "image1": "/images/retour.webp"
       },
       {
         "title": "GUIDED WALK AT SUNSET",
         "description": "Let’s stroll through the narrow and lively streets of the old town, leading us to the ancient fortress called the Kastro; a historical site where the homes and religious buildings testify to the island’s identity.\nThen, let’s make a quick stop to savor the famous Naxos Kitron liqueur, before heading to the iconic Portara; a remnant of the temple dedicated to Apollo, to watch the sunset and admire the breathtaking view of Chora, its hinterland, and the Aegean Sea.\nThis magnificent panorama continues from a beautiful terrace overlooking the port, where a tasting of local specialties concludes this visit, blending history and mythology.",
-        "image": "./src/assets/images/paysage3.webp",
-      "image1": "./src/assets/images/balade.webp"
+        "image": "/images/paysage3.webp",
+      "image1": "/images/balade.webp"
       },
       {
         "title": "PRIVATE GUIDED EXCURSIONS",
         "description": "Create your own experience according to your tastes, interests, and enjoy personalized guidance to organize a tour, including a guided visit for a duration of your choice:\n 4h ~6h ~8h.",
-        "image": "./src/assets/images/paysage4.webp",
+        "image": "/images/paysage4.webp",
         "categories": [
         {
           "title": "KASTRO / PORTE DU TEMPLE D'APOLLON A CHORA",
-          "image": "./src/assets/images/kastro.webp"
+          "image": "/images/kastro.webp"
           
         },
         {
           "title": "POTERIE TRADITIONNELLE / PRESSE OLIVES",
-          "image": "./src/assets/images/poterie.webp",
-          "image1": "./src/assets/images/presse-olives.webp"
+          "image": "/images/poterie.webp",
+          "image1": "/images/presse-olives.webp"
         },
         {
           "title": "TEMPLE DE DEMETER",
-          "image": "./src/assets/images/temple-demeter.webp"
+          "image": "/images/temple-demeter.webp"
         },
         {
           "title": "CHALKI / DISTILLERIE DE KITRON",
-          "image": "./src/assets/images/chalki.webp",
-          "image1": "./src/assets/images/distillerie-citron.webp"
+          "image": "/images/chalki.webp",
+          "image1": "/images/distillerie-citron.webp"
         },
         {
           "title": "ÉGLISE BYZANTINE PANAGIA DROSSIANI",
-          "image": "./src/assets/images/panagia-drossiani.webp"
+          "image": "/images/panagia-drossiani.webp"
         },
         {
           "title": "FILOTI",
-          "image": "./src/assets/images/filoti.webp"
+          "image": "/images/filoti.webp"
         },
         {
           "title": "APEIRANTHOS",
-          "image": "./src/assets/images/apeiranthos.webp"
+          "image": "/images/apeiranthos.webp"
         },
         {
           "title": "KOUROS DE FLERIO / SOURCE DE MILI",
-          "image": "./src/assets/images/kouros-flerio.webp",
-          "image1": "./src/assets/images/source-mili.webp"
+          "image": "/images/kouros-flerio.webp",
+          "image1": "/images/source-mili.webp"
         },
         {
           "title": "APOLONNAS / KOUROS",
-          "image": "./src/assets/images/apolonnas.webp",
-          "image1": "./src/assets/images/kouros.webp"
+          "image": "/images/apolonnas.webp",
+          "image1": "/images/kouros.webp"
         },
         {
           "title": "MUSÉE PRESSE OLIVES",
-          "image": "./src/assets/images/musee-presse-olives.webp"
+          "image": "/images/musee-presse-olives.webp"
         }
       ]
       }

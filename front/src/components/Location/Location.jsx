@@ -1,7 +1,7 @@
 import { useLanguage } from '../../context/languageContext';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import './Location.scss';
-import ane from "../../assets/images/location.webp";
+import ane from "/images/location.webp";
 
 const Location = () => {
   const { translations } = useLanguage();
