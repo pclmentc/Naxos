@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useLanguage } from "../../context/languageContext";
 import "./Footer.scss";
-import facebookIcon from "../../assets/icons/facebook.png";
-import instagramIcon from "../../assets/icons/instagram.png";
-import whatsappIcon from "../../assets/icons/whatsapp.png";
-import viberIcon from "../../assets/icons/viber.png";
+import facebookIcon from "../../assets/icons/facebook.webp";
+import instagramIcon from "../../assets/icons/instagram.webp";
+import whatsappIcon from "../../assets/icons/whatsapp.webp";
+import viberIcon from "../../assets/icons/viber.webp";
 
 const Footer = () => {
   const { translations } = useLanguage();

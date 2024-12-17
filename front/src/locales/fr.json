@@ -25,70 +25,70 @@
     {
       "title": "PRESTATION D'ACCOMPAGNEMENT UNIQUE",
       "description": "Vous accompagner lors d'une excursion sur l'île de Naxos symbolise un moment de partage, un échange, une communion.\nC'est transmettre mes connaissances et ce qui me passionne; promouvoir des valeurs humaines, culturelles et historiques; aller à la rencontre des traditions; respecter et être à l'écoute de l'environnement qui nous entoure et s'émerveiller de tout ce qui s'offre à nous.\nContactez-moi pour tous renseignements.",
-      "image": "./src/assets/images/paysage1.png",
-      "image1": "./src/assets/images/isabelle.jpg"
+      "image": "./src/assets/images/paysage1.webp",
+      "image1": "./src/assets/images/isabelle.webp"
     },
     {
       "title": "RETOUR AUX SOURCES",
       "description": "Quittons la capitale pour nous diriger vers le centre de l'île. \nArrêtons nous tout d'abord à l'atelier de Poterie Traditionnelle dans le village de Damalas, et découvrons un savoir-faire transmis de génération en génération.\nA quelques mètres de ce lieu emblématique , une ancienne Presse à Olives nous transporte dans le passé en nous livrant les secrets d'antan de la fabrication de l'huile.\nReprenons notre route vers le village typique de Chalki.\n Observons les balcons vénitiens, les ruelles fleuries , les échoppes d'artisans et allons déguster la fameuse liqueur de Kitron à la distillerie.\nNous nous dirigeons ensuite vers le village dit de marbre d'Apeiranthos, en traversant le village de Filoti au pied du Mont Zeus, nous permettant ainsi, de contempler un magnifique Panorama depuis les hauteurs.\nNous contournons ensuite l'impressionnante Carrière de Marbre, avant de faire notre pause dégustation culinaire dans une taverne locale.La balade digestive qui suit notre repas, nous dévoile l'une des Sources d'Eau de l'île, situé au coeur du ravissant petit village de Mili.\nEnfin, avant notre retour au port, nous nous présentons devant le Kouros de Flerio, l'immuable statue âgée de plus de 3000 ans.\nDurée : environ 7H /  environ 8 Pers \nInclus : Transfert / Accompagnement / Repas.\nTarifs : \n-Adulte : 135€/p \n- Enfant :(6~12ans) 60€./p\nContactez-moi pour effectuer votre réservation et pour tous renseignements complémentaires.",
-      "image": "./src/assets/images/paysage2.png",
-      "image1": "./src/assets/images/retour.jpg"
+      "image": "./src/assets/images/paysage2.webp",
+      "image1": "./src/assets/images/retour.webp"
     },
     {
       "title": "BALADE GUIDÉE AU SOLEIL COUCHANT",
       "description": "Promenons-nous dans les ruelles étroites et animées de la vieille ville qui nous mènent vers l'ancienne forteresse appelée le Kastro; lieu historique où les demeures et les édifices religieux témoignent de l'identité de l'île.\nFaisons ensuite un petit arrêt pour savourer la fameuse liqueur de Naxos Kitron, avant de nous diriger vers l'emblématique Portara; vestige du temple dédié à Apollon pour y contempler le coucher du soleil et admirer la vue imprenable sur Chora, son arrière pays et la mer Egée.\nCe somptueux panorama se prolonge ensuite, depuis une magnifique terrasse dominant le port, où une Dégustation de spécialités locales clôture cette visite, mêlant histoire et mythologie.\nDurée : 3 heures\nDépart depuis le port en début de soirée (heure à déterminer).\nExcursion partagée :\n Adulte 60€ /p\n  Enfant 40€ /p \n(accompagnement / dégustations inclus)\nExcursion privée : Demandez votre devis.\nContactez-moi pour effectuer vos réservations et pour tous renseignements complémentaires.",
-      "image": "./src/assets/images/paysage3.jpg",
-      "image1": "./src/assets/images/balade.jpg"
+      "image": "./src/assets/images/paysage3.webp",
+      "image1": "./src/assets/images/balade.webp"
     },
     {
       "title": "EXCURSIONS PRIVÉES ACCOMPAGNÉES",
       "description": "Composez votre propre expérience selon vos goûts, vos attraits et bénéficiez d'un accompagnement sur mesure pour organiser un parcours, incluant une visite guidée de la durée de votre choix :\n 4h ~6h ~8h",
-      "image": "./src/assets/images/paysage4.png",
+      "image": "./src/assets/images/paysage4.webp",
       "categories": [
         {
           "title": "KASTRO / PORTE DU TEMPLE D'APOLLON A CHORA",
-          "image": "./src/assets/images/kastro.jpg"
+          "image": "./src/assets/images/kastro.webp"
           
         },
         {
           "title": "POTERIE TRADITIONNELLE / PRESSE OLIVES",
-          "image": "./src/assets/images/poterie.jpg",
-          "image1": "./src/assets/images/presse-olives.jpg"
+          "image": "./src/assets/images/poterie.webp",
+          "image1": "./src/assets/images/presse-olives.webp"
         },
         {
           "title": "TEMPLE DE DEMETER",
-          "image": "./src/assets/images/temple-demeter.jpg"
+          "image": "./src/assets/images/temple-demeter.webp"
         },
         {
           "title": "CHALKI / DISTILLERIE DE KITRON",
-          "image": "./src/assets/images/chalki.jpg",
-          "image1": "./src/assets/images/distillerie-citron.jpg"
+          "image": "./src/assets/images/chalki.webp",
+          "image1": "./src/assets/images/distillerie-citron.webp"
         },
         {
           "title": "ÉGLISE BYZANTINE PANAGIA DROSSIANI",
-          "image": "./src/assets/images/panagia-drossiani.jpg"
+          "image": "./src/assets/images/panagia-drossiani.webp"
         },
         {
           "title": "FILOTI",
-          "image": "./src/assets/images/filoti.jpg"
+          "image": "./src/assets/images/filoti.webp"
         },
         {
           "title": "APEIRANTHOS",
-          "image": "./src/assets/images/apeiranthos.jpg"
+          "image": "./src/assets/images/apeiranthos.webp"
         },
         {
           "title": "KOUROS DE FLERIO / SOURCE DE MILI",
-          "image": "./src/assets/images/kouros-flerio.jpg",
-          "image1": "./src/assets/images/source-mili.jpg"
+          "image": "./src/assets/images/kouros-flerio.webp",
+          "image1": "./src/assets/images/source-mili.webp"
         },
         {
           "title": "APOLONNAS / KOUROS",
-          "image": "./src/assets/images/apolonnas.jpg",
-          "image1": "./src/assets/images/kouros.jpg"
+          "image": "./src/assets/images/apolonnas.webp",
+          "image1": "./src/assets/images/kouros.webp"
         },
         {
           "title": "MUSÉE PRESSE OLIVES",
-          "image": "./src/assets/images/musee-presse-olives.jpg"
+          "image": "./src/assets/images/musee-presse-olives.webp"
         }
       ]
 
@@ -138,32 +138,32 @@
     {
       "title": " Pêche traditionnelle (6h30):",
       "text": "Vivez l'expérience d'une pêche traditionnelle au filet, au côté d'un équipage professionnel, tout en profitant d'une croisière le long des côtes de Naxos où des petites Cyclades. Baignez-vous le temps de la préparation du repas, à base des poissons fraîchement pêchés, que vous dégustez à bord.",
-      "img": "./src/assets/carrousel/peche.jpg"
+      "img": "./src/assets/carrousel/peche.webp"
     },
     {
       "title": "Domaine Viticole Saint Anna (2h):",
       "text": "Visitez le vignoble, la chapelle St Anna datant du IX siècle ainsi que la cave du domaine, où vous sont livrés les procédés de vinification, suivie d'une dégustation des différents vins.",
-      "img": "./src/assets/carrousel/Viticole.jpg"
+      "img": "./src/assets/carrousel/Viticole.webp"
     },
     {
       "title": " Distillerie de Kitron  'Promponas'  (1h/1h30):",
       "text": "Visite des lieux, explications et présentation des différentes étapes de distillation du Kitron, cette liqueur 'made in Naxos', accompagnée d'une riche dégustation. Option Master class de cocktails à base de Kitron.",
-      "img": "./src/assets/carrousel/Kitron.jpg"
+      "img": "./src/assets/carrousel/Kitron.webp"
     },
     {
       "title": "Cours de Cuisine (4h):",
       "text": "Préparez selon un savoir faire local, plusieurs plats typiques que vous aurez la fierté de déguster, après une visite guidée par le propriétaire, des terres agricoles.",
-      "img": "./src/assets/carrousel/Cuisine.jpg"
+      "img": "./src/assets/carrousel/Cuisine.webp"
     },
     {
       "title": "Cours de Poterie (1h):",
       "text": "Modelez, façonnez, ressentez...Transformez de vos propres mains une matière noble, selon la tradition locale et gardez le souvenir d'une pièce unique.",
-      "img": "./src/assets/carrousel/coursPoterie.jpg"
+      "img": "./src/assets/carrousel/coursPoterie.webp"
     },
     {
       "title": " Sculpture sur Marbre (2h):",
       "text": "Écoutez un artiste passionné vous conter l'histoire et l'art de la sculpture du marbre et réalisez votre propre chef-d'œuvre.",
-      "img": "./src/assets/carrousel/sculpture.jpg"
+      "img": "./src/assets/carrousel/sculpture.webp"
     }
   ],
   "footer": {

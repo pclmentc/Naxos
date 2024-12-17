@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import "./Navbar.scss";
 import { useLanguage } from "../../context/languageContext";
 
-import apollon from "../../assets/icons/temple.png";
+import apollon from "../../assets/icons/temple.webp";
 import panneau from "../../assets/icons/panneau.webp";
-import église from "../../assets/icons/eglise.png";
-import croisieres from "../../assets/icons/bateau.png";
-import kouros from "../../assets/icons/kouros.png";
+import église from "../../assets/icons/eglise.webp";
+import croisieres from "../../assets/icons/bateau.webp";
+import kouros from "../../assets/icons/kouros.webp";
 import experiences from "../../assets/icons/experience_et_partages.webp";
 import carafe from "../../assets/icons/carafe_de_naxos.webp";
 import ane from "../../assets/icons/ane.webp";

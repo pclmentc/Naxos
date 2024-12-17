@@ -1,7 +1,7 @@
 import { useLanguage } from '../../context/languageContext';
 import './LanguageSelector.scss';
-import En from '../../assets/langues/en.png';
-import Fr from '../../assets/langues/fr.png';
+import En from '../../assets/langues/en.webp';
+import Fr from '../../assets/langues/fr.webp';
 import { useState } from 'react';
 
 const LanguageSelector = () => {
