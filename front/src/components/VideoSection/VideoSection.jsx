@@ -10,7 +10,7 @@ const VideoSection = () => {
       <h2>{translations.videoSection} <em>— {translations.quoteAuthor}</em></h2>
       </article>
       <video controls>
-        <source src="./src/assets/vidéo/IntroNaxos.mp4" type="video/mp4" />
+        <source src="/vidéo/IntroNaxos.mp4" type="video/mp4" />
         Votre navigateur ne supporte pas la lecture vidéo.
       </video>
     </div>
