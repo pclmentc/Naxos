@@ -137,33 +137,28 @@
   "slides": [
     {
       "title": " Pêche traditionnelle (6h30):",
-      "text": "Vivez l'expérience d'une pêche traditionnelle au filet, au côté d'un équipage professionnel, tout en profitant d'une croisière le long des côtes de Naxos où des petites Cyclades. Baignez-vous le temps de la préparation du repas, à base des poissons fraîchement pêchés, que vous dégustez à bord.",
-      "img": "./src/assets/carrousel/peche.webp"
+      "text": "Vivez l'expérience d'une pêche traditionnelle au filet, au côté d'un équipage professionnel, tout en profitant d'une croisière le long des côtes de Naxos où des petites Cyclades. Baignez-vous le temps de la préparation du repas, à base des poissons fraîchement pêchés, que vous dégustez à bord."
+      
     },
     {
       "title": "Domaine Viticole Saint Anna (2h):",
-      "text": "Visitez le vignoble, la chapelle St Anna datant du IX siècle ainsi que la cave du domaine, où vous sont livrés les procédés de vinification, suivie d'une dégustation des différents vins.",
-      "img": "./src/assets/carrousel/Viticole.webp"
+      "text": "Visitez le vignoble, la chapelle St Anna datant du IX siècle ainsi que la cave du domaine, où vous sont livrés les procédés de vinification, suivie d'une dégustation des différents vins."
     },
     {
       "title": " Distillerie de Kitron  'Promponas'  (1h/1h30):",
-      "text": "Visite des lieux, explications et présentation des différentes étapes de distillation du Kitron, cette liqueur 'made in Naxos', accompagnée d'une riche dégustation. Option Master class de cocktails à base de Kitron.",
-      "img": "./src/assets/carrousel/Kitron.webp"
+      "text": "Visite des lieux, explications et présentation des différentes étapes de distillation du Kitron, cette liqueur 'made in Naxos', accompagnée d'une riche dégustation. Option Master class de cocktails à base de Kitron."
     },
     {
       "title": "Cours de Cuisine (4h):",
-      "text": "Préparez selon un savoir faire local, plusieurs plats typiques que vous aurez la fierté de déguster, après une visite guidée par le propriétaire, des terres agricoles.",
-      "img": "./src/assets/carrousel/Cuisine.webp"
+      "text": "Préparez selon un savoir faire local, plusieurs plats typiques que vous aurez la fierté de déguster, après une visite guidée par le propriétaire, des terres agricoles."
     },
     {
       "title": "Cours de Poterie (1h):",
-      "text": "Modelez, façonnez, ressentez...Transformez de vos propres mains une matière noble, selon la tradition locale et gardez le souvenir d'une pièce unique.",
-      "img": "./src/assets/carrousel/coursPoterie.webp"
+      "text": "Modelez, façonnez, ressentez...Transformez de vos propres mains une matière noble, selon la tradition locale et gardez le souvenir d'une pièce unique."
     },
     {
       "title": " Sculpture sur Marbre (2h):",
-      "text": "Écoutez un artiste passionné vous conter l'histoire et l'art de la sculpture du marbre et réalisez votre propre chef-d'œuvre.",
-      "img": "./src/assets/carrousel/sculpture.webp"
+      "text": "Écoutez un artiste passionné vous conter l'histoire et l'art de la sculpture du marbre et réalisez votre propre chef-d'œuvre."
     }
   ],
   "footer": {

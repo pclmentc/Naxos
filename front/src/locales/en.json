@@ -135,33 +135,27 @@
 "slides": [
   {
     "title": "Traditional Fishing (6h30):",
-    "text": "Experience traditional net fishing alongside a professional crew while enjoying a cruise along the coasts of Naxos and the Small Cyclades. Swim while the meal, made from freshly caught fish, is being prepared, which you will then enjoy on board.",
-    "img": "./src/assets/carrousel/peche.webp"
+    "text": "Experience traditional net fishing alongside a professional crew while enjoying a cruise along the coasts of Naxos and the Small Cyclades. Swim while the meal, made from freshly caught fish, is being prepared, which you will then enjoy on board."
   },
   {
     "title": "Saint Anna Vineyard (2h):",
-    "text": "Visit the vineyard, the St Anna chapel dating from the 9th century, and the estate's cellar where the winemaking process is explained, followed by a tasting of different wines.",
-    "img": "./src/assets/carrousel/Viticole.webp"
+    "text": "Visit the vineyard, the St Anna chapel dating from the 9th century, and the estate's cellar where the winemaking process is explained, followed by a tasting of different wines."
   },
   {
     "title": "Kitron Distillery - Promponas (1h/1h30):",
-    "text": "Visit the site, learn about and discover the different steps of Kitron distillation, this liqueur 'made in Naxos', accompanied by a rich tasting. Master class option on cocktails made with Kitron.",
-    "img": "./src/assets/carrousel/Kitron.webp"
+    "text": "Visit the site, learn about and discover the different steps of Kitron distillation, this liqueur 'made in Naxos', accompanied by a rich tasting. Master class option on cocktails made with Kitron."
   },
   {
     "title": "Cooking Class (4h):",
-    "text": "Prepare several typical dishes using local knowledge that you will proudly enjoy after a guided tour of the agricultural lands by the owner.",
-    "img": "./src/assets/carrousel/Cuisine.webp"
+    "text": "Prepare several typical dishes using local knowledge that you will proudly enjoy after a guided tour of the agricultural lands by the owner."
   },
   {
     "title": "Pottery Class (1h):",
-    "text": "Shape, mold, and feel... Transform a noble material with your own hands according to local tradition and keep the memory of a unique piece.",
-    "img": "./src/assets/carrousel/coursPoterie.webp"
+    "text": "Shape, mold, and feel... Transform a noble material with your own hands according to local tradition and keep the memory of a unique piece."
   },
   {
     "title": "Marble Sculpting (2h):",
-    "text": "Listen to a passionate artist tell you the story and art of marble sculpting and create your own masterpiece.",
-    "img": "./src/assets/carrousel/sculpture.webp"
+    "text": "Listen to a passionate artist tell you the story and art of marble sculpting and create your own masterpiece."
   }
 ],
 "footer": {
