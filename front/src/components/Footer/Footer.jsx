@@ -181,7 +181,7 @@ const Footer = () => {
 
             <div className="info__socials">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61570304072791"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visitez notre page Facebook"
