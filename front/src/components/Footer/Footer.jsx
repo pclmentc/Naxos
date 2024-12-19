@@ -189,7 +189,7 @@ const Footer = () => {
                 <img src={facebookIcon} alt="Facebook" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/p/DDwlRBoIxqi/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visitez notre page Instagram"
