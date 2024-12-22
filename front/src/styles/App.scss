@@ -1,3 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
 html{
   background-image: url(../../src/assets/background/fond_azure.svg);
   background-repeat: no-repeat;

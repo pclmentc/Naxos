@@ -25,12 +25,13 @@
   }
 }
 .croisiere-content{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 15px;
   justify-content: center;
+  padding: 2rem;
   
   
   @media screen and (max-width: 930px) {
@@ -107,11 +108,8 @@
       }
 
       p {
-        padding-inline: 25px;
-        padding-bottom: 15px;
         font-size: 1.3rem;
         color: #666;
-        text-align: left;
       }
     }
   }
