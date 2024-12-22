@@ -1,12 +1,28 @@
 .introCroisieres{
   background-color: #f8fbfa;
   border-radius: 25px;
-  max-width: 450px;
+  width: 80%;
   margin: 0 auto;
   padding-bottom: 15px;
-  padding: 15px;
+  padding: 2rem;
   text-align: center;
   border: solid 2px;
+  @media screen and (max-width: 375px) {
+    width: 100%;
+    text-align: center;
+  }
+
+  .question{
+    font-style: oblique;
+    font-weight: 900;
+    font-size: larger;
+    padding-top: 1rem;
+  }
+  .accroche{
+    font-style: italic;
+    padding-bottom: 1rem;
+    font-size: larger;
+  }
 }
 .croisiere-content{
   width: 70%;

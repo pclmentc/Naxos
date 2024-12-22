@@ -25,7 +25,10 @@ const Croisieres = () => {
     <section className="croisieres" id="croisieres">
       <div className='introCroisieres'>
         <h2>{data.title}</h2>
-        <p>{data.intro}</p>
+        <p className='accroche'>{data.intro}</p>
+        <p>{data.intro1}</p>
+        <p>{data.intro2}</p>
+        <p className='question'>{data.intro3}</p>
       </div>
 
       <div className="croisieres-container">

@@ -97,14 +97,17 @@
   "croisieres": {
     "title": "Les Croisières",
     "intro": "À la découverte des îles voisines",
+    "intro1": "Vous souhaitez profiter de la localisation centrale de Naxos pour explorer d'autres îles des Cyclades ?",
+    "intro2": "Laissez-moi effectuer votre réservation, directement auprès des prestataires locaux, en toute sécurité.",
+    "intro3": "Contactez-moi pour tous renseignements complémentaires.",
     "cruises": [
       {
         "title": "Les Petites Cyclades : Ano / Kato Koufonissi / Grotte de Rina",
-        "description": "Détente, baignade et découverte sont au programme de cette croisière sur la Mer Égée.\nVous naviguez en direction du sud de Naxos en longeant la côte Est.\nUn 1er arrêt vous permet de nager à l'intérieur de la Grotte de Rina et d'explorer les fonds marins translucides."
+        "description": "Détente, baignade et découverte sont au programme de cette croisière sur la Mer Égée.\nVous naviguez en direction du sud de Naxos en longeant la côte Est.\nUn 1er arrêt vous permet de nager à l'intérieur de la Grotte de Rina et d'explorer les fonds marins translucides, grâce au matériel de plongée en apnée fourni par l'équipage.\n Partez ensuite admirer les surprenantes eaux turquoises et cristallines de l'île de Koufonissi Ano et Kato, un vrai joyau des Petites Cyclades.\n Faites escale sur la magnifique île habitée d'Ano Koufonissi, le temps d'une pause libre de 3h30 avant un retour à Naxos.\n En Caïque traditionnelle où en Voilier journée entière (Au départ du port d'Agia Anna).\n En Catamaran, croisière semi-privé, journée entière (Au départ de Chora)."
       },
       {
         "title": "Iraklia / Ano Koufonissi",
-        "description": "Cette croisière vous donne l'occasion de découvrir, en toute liberté, le petit port de l'île sauvage d'Iraklia.\nVisitez l'île d'Ano Koufonissi, son village chaleureux et ses plages bordant une eau cristalline."
+        "description": "Cette croisière vous donne l'occasion de découvrir, en toute liberté, le petit port de l'île sauvage d'Iraklia (1h30) et de visiter l'île d'Ano Koufonissi (4h30), son village chaleureux et ses nombreuses plages bordants une eau cristalline d'une couleur azur.\nDépart 9:30 de la marina à chora, retour 18:50. \n(Les horaires peuvent varier +/- 15 min selon le croisiériste)."
       },
       {
         "title": "Delos / Mykonos",
