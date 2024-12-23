@@ -32,6 +32,9 @@
     &.with-anchor .icon {
       transition: transform 0.3s ease, filter 0.3s ease;
       width: 95px;
+      border: 2px solid;
+      border-radius: 20px;
+      color: black;
 
       &:hover {
         transform: scale(1.4) rotate(5deg);

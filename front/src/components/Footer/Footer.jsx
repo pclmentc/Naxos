@@ -14,7 +14,7 @@ const Footer = () => {
 
   // Expressions régulières pour validation
   const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-  const regexPhone = /^[0-9]{10}$/; // Pour un téléphone français classique (10 chiffres)
+  const regexPhone = /^\+?[1-9]\d{1,14}(\s|-|\()?(\d{1,4}(\)|-|\s)?)*$/; // Pour un téléphone français classique (10 chiffres)
 
   // États pour chaque champ
   const [formData, setFormData] = useState({

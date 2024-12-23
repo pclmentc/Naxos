@@ -4,9 +4,10 @@
   background-position: center;
   background-color: #efeae2;
   padding-top: 45px;
+  box-sizing: border-box;
 
   &__main {
-    width: 90%;
+    width: 95%;
     display: flex;
     gap: 20px;
     margin: 0 auto;
@@ -198,6 +199,7 @@
     height: 100vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: relative;
+    overflow-y: auto;
 
     h2 {
       margin-top: 0;
