@@ -166,7 +166,12 @@ const Footer = () => {
         </div>
 
         <div className="footer__info">
-          <h2>{footerContent.info}</h2>
+          <h2><img
+            src="images/breton.png"
+            alt="drapeau bretagne"
+            className="breton"
+          />
+          {footerContent.info}</h2>
           <div className="info__card">
             <p>
               <strong>Entreprise:</strong> en cours..
