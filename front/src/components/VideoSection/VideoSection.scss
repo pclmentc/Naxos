@@ -79,7 +79,6 @@ h2{
     background-color: rgba(255, 255, 255, 0.91);
     width: 60%;
     margin: 0 auto;
-    padding: 10px;
     border-radius: 25px;
     font-family: 'titre',sans-serif;
 
@@ -88,13 +87,12 @@ h2{
       position: relative;
       top: 225px;
       width: 100%;
-      padding-block: 10px;
   }
-  @media screen and (max-width: 480px) {
-    top: 190px;
+  @media screen and (max-width: 542px) {
+    top: 40%;
 }
 @media screen and (max-width: 375px) {
-  top: -54px;
+  top: 5%;
   font-weight: 900;
   background-color: transparent;
   color: rgb(255, 255, 255);
