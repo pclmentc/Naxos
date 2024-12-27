@@ -29,8 +29,13 @@ const Experience = () => {
   const [isPlaying, setIsPlaying] = useState(true);
 
   // Gérer le survol ou l'interaction tactile
-  const handleInteractionStart = () => setIsPlaying(false);
-  const handleInteractionEnd = () => setIsPlaying(true);
+  const handleInteractionStart = () => {
+    setIsPlaying(false);
+  };
+
+  const handleInteractionEnd = () => {
+    setIsPlaying(true);
+  };
 
   return (
     <section className="experience" id="experience">
