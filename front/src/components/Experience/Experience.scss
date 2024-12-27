@@ -22,6 +22,7 @@
   }
 
   .card {
+    padding: 5px;
     width: 50%;
     height: 100%;
     text-align: center;
@@ -43,10 +44,13 @@
     }
 
     h3 {
-      padding-block: 35px;
+      margin: 0 auto;
+      width: 80%;
+      margin-block: 35px;
       font-size: 2.5rem;
-      margin: 0.5rem 0;
-      color: #fefefe;
+      background-color: #f8fbfa94;
+      border-radius: 15px;
+
 
       @media screen and (max-width: 375px) {
         font-size: 2rem;
@@ -54,12 +58,14 @@
     }
 
     p {
-      padding-block: 20px;
+      background-color: #f8fbfab6;
+      border-radius: 15px;
+      padding-block: 5px;
       width: 80%;
       margin: 0 auto;
-      font-size: 1.6rem;
+      font-size: 1.9rem;
       text-align: center;
-      color: #fefbfb;
+
 
       @media screen and (max-width: 768px) {
         width: 80%;
