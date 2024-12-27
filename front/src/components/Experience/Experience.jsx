@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useLanguage } from "../../context/languageContext";
@@ -28,24 +28,12 @@ const Experience = () => {
   // État pour gérer l'auto-play
   const [isPlaying, setIsPlaying] = useState(true);
 
-  // Gérer le défilement de la page
-  const handleScroll = (shouldDisable) => {
-    document.body.style.overflow = shouldDisable ? "hidden" : "auto";
-  };
-
-  useEffect(() => {
-    handleScroll(!isPlaying);
-    return () => handleScroll(false);
-  }, [isPlaying]);
-
   // Gérer le survol ou l'interaction tactile
-  const handleInteractionStart = (e) => {
-    e.preventDefault(); // Empêche la sélection de texte ou image
+  const handleInteractionStart = () => {
     setIsPlaying(false);
   };
 
-  const handleInteractionEnd = (e) => {
-    e.preventDefault(); // Empêche la sélection de texte ou image
+  const handleInteractionEnd = () => {
     setIsPlaying(true);
   };
 
@@ -59,10 +47,17 @@ const Experience = () => {
         infiniteLoop
         autoPlay={isPlaying}
         showThumbs={false}
+        interval={5000} // Durée entre deux slides (en millisecondes)
         onMouseEnter={handleInteractionStart}
         onMouseLeave={handleInteractionEnd}
-        onTouchStart={handleInteractionStart}
-        onTouchEnd={handleInteractionEnd}
+        onTouchStart={(e) => {
+          e.preventDefault(); // Empêche la sélection par défaut
+          handleInteractionStart();
+        }}
+        onTouchEnd={(e) => {
+          e.preventDefault(); // Empêche la sélection par défaut
+          handleInteractionEnd();
+        }}
       >
         {slides.map((slide, index) => (
           <div key={index} className="card">
