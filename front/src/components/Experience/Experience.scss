@@ -2,6 +2,8 @@
   padding-inline: 1rem;
   text-align: center;
   position: relative;
+  user-select: none;
+  -webkit-user-select: none;
 
   h1 {
   font-size: 2.5rem;

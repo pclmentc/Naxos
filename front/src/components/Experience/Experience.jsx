@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useLanguage } from "../../context/languageContext";
@@ -28,12 +28,24 @@ const Experience = () => {
   // État pour gérer l'auto-play
   const [isPlaying, setIsPlaying] = useState(true);
 
+  // Gérer le défilement de la page
+  const handleScroll = (shouldDisable) => {
+    document.body.style.overflow = shouldDisable ? "hidden" : "auto";
+  };
+
+  useEffect(() => {
+    handleScroll(!isPlaying);
+    return () => handleScroll(false);
+  }, [isPlaying]);
+
   // Gérer le survol ou l'interaction tactile
-  const handleInteractionStart = () => {
+  const handleInteractionStart = (e) => {
+    e.preventDefault(); // Empêche la sélection de texte ou image
     setIsPlaying(false);
   };
 
-  const handleInteractionEnd = () => {
+  const handleInteractionEnd = (e) => {
+    e.preventDefault(); // Empêche la sélection de texte ou image
     setIsPlaying(true);
   };
 
