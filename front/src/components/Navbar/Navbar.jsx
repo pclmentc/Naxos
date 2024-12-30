@@ -15,15 +15,7 @@ import temple from "../../assets/icons/templeNeuf.webp";
 const Navbar = () => {
   const { translations } = useLanguage();
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 930);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 930);
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  const [vibratingIndex, setVibratingIndex] = useState(null);
 
   const icons = [
     { src: apollon, label: translations.navbar.apollon },
@@ -47,13 +39,36 @@ const Navbar = () => {
 
   const filteredIcons = isMobile ? icons.filter((item) => item.href) : icons;
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 930);
+    };
+
+    const interval = setInterval(() => {
+      if (filteredIcons.length > 0) {
+        const index = Math.floor(Math.random() * filteredIcons.length);
+        setVibratingIndex(index);
+        setTimeout(() => setVibratingIndex(null), 1000); // Supprime l'effet après 1 seconde
+      }
+    }, 3000); // Toutes les 3 secondes
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [filteredIcons]); // Dépend de `filteredIcons` pour refléter les changements de mode mobile
+
   return (
     <nav className="navbar-icons">
       {filteredIcons.map((item, index) => (
         <a
           key={index}
           href={item.href || "#"}
-          className={`icon-link ${item.href ? 'with-anchor' : ''}`}
+          className={`icon-link ${item.href ? "with-anchor" : ""} ${
+            index === vibratingIndex ? "vibrating" : ""
+          }`}
           aria-label={item.label}
         >
           <img src={item.src} alt={item.label} className="icon" />

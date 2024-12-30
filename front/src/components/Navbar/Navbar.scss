@@ -44,6 +44,10 @@
       }
     }
 
+    &.vibrating {
+      animation: vibrate 0.2s ease-in-out;
+    }
+
     .icon-description {
       font-family: 'titre', sans-serif;
       visibility: hidden;
@@ -70,5 +74,23 @@
         visibility: hidden;
       }
     }
+  }
+}
+
+@keyframes vibrate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

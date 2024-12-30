@@ -37,6 +37,18 @@ const Experience = () => {
     setIsPlaying(true);
   };
 
+  // Permettre le défilement vertical même pendant l'interaction avec le carrousel
+  const handleTouchStart = (e) => {
+    const touchStart = e.touches[0].clientY;
+    e.target.addEventListener("touchmove", (e) => {
+      const touchMove = e.touches[0].clientY;
+      if (Math.abs(touchMove - touchStart) > 10) {
+        // Si on détecte un mouvement vertical, on laisse défiler la page
+        e.stopPropagation();
+      }
+    });
+  };
+
   return (
     <section className="experience" id="experience">
       <h1>{content.title}</h1>
@@ -47,17 +59,11 @@ const Experience = () => {
         infiniteLoop
         autoPlay={isPlaying}
         showThumbs={false}
-        interval={5000} // Durée entre deux slides (en millisecondes)
+        interval={8000} // Durée entre deux slides (en millisecondes)
         onMouseEnter={handleInteractionStart}
         onMouseLeave={handleInteractionEnd}
-        onTouchStart={(e) => {
-          e.preventDefault(); // Empêche la sélection par défaut
-          handleInteractionStart();
-        }}
-        onTouchEnd={(e) => {
-          e.preventDefault(); // Empêche la sélection par défaut
-          handleInteractionEnd();
-        }}
+        onTouchStart={(e) => handleTouchStart(e)}  // Ajouter gestion du touch start
+        onTouchEnd={handleInteractionEnd}
       >
         {slides.map((slide, index) => (
           <div key={index} className="card">

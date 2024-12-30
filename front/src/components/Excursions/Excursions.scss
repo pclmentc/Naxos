@@ -132,22 +132,20 @@
     position: relative;
 
     img {
-      width: 450px;
+      width: 100%;
       height: auto;
       border-radius: 8px;
       margin-bottom: 1rem;
-      @media screen and (max-width: 480px) {
-        width: 320px;
-    }
-    @media screen and (max-width: 375px) {
-      width: 250px;
-  }
+
     }
 
     h3 {
       font-size: 1.6rem;
       color: #444;
       margin-bottom: 1rem;
+      @media screen and (max-width: 370px) {
+        font-size: 1.3rem;
+    }
     }
 
     p {
@@ -155,6 +153,9 @@
       color: #666;
       line-height: 1.6;
       margin-bottom: 1rem;
+      @media screen and (max-width: 370px) {
+        font-size: 1.2rem;
+    }
     }
 
     .close {
