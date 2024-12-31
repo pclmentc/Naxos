@@ -6,7 +6,7 @@
   -webkit-user-select: none;
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-bottom: 1rem;
     text-align: center;
     border: solid 2px;
@@ -48,7 +48,7 @@
       margin: 0 auto;
       width: 80%;
       margin-block: 35px;
-      font-size: 2.5rem;
+      font-size: 2.3rem;
       background-color: #f8fbfa94;
       border-radius: 15px;
 
@@ -63,7 +63,7 @@
       padding-block: 5px;
       width: 80%;
       margin: 0 auto;
-      font-size: 1.9rem;
+      font-size: 1.6rem;
       text-align: center;
 
       @media screen and (max-width: 768px) {
@@ -76,14 +76,15 @@
     }
 
     img {
+      padding-inline: 25px;
       border-radius: 15px;
       width: 350px;
       height: 250px;
       object-fit: cover;
-      padding-bottom: 5px;
+      padding-bottom: 35px;
 
-      @media screen and (max-width: 375px) {
-        max-width: 240px;
+      @media screen and (max-width: 520px) {
+        max-width: 70%;
       }
     }
   }
@@ -110,34 +111,53 @@
   }
 
   .carousel .control-prev {
-    left: 30%;
-    top: 50%;
-    @media screen and (max-width: 830px) {
+    left: 35%;
+    top: 45%;
+    @media screen and (max-width: 1419px) {
+      left: 30%;
+    }
+    @media screen and (max-width: 1071px) {
+      left: 28%;
+    }
+    @media screen and (max-width: 965px) {
+      left: 26%;
+    }
+    @media screen and (max-width: 885px) {
+      left: 22%;
+    }
+    @media screen and (max-width: 767px) {
+      left: 10%;
+      top: 40%;
+    }
+    @media screen and (max-width: 551px) {
       left: 5%;
+      top: 35%;
     }
-    @media screen and (max-width: 564px) {
-      left: 2%;
-      top: 59%;
-    }
+    
   }
 
   .carousel .control-next {
-    right: 30%;
-    top: 50%;
-    @media screen and (max-width: 830px) {
+    right: 35%;
+    top: 45%;
+    @media screen and (max-width: 1419px) {
+      right: 30%;
+    }
+    @media screen and (max-width: 1071px) {
+      right: 28%;
+    }
+    @media screen and (max-width: 965px) {
+      right: 26%;
+    }
+    @media screen and (max-width: 885px) {
+      right: 22%;
+    }
+    @media screen and (max-width: 767px) {
+      right: 10%;
+      top: 40%;
+    }
+    @media screen and (max-width: 551px) {
       right: 5%;
-    }
-    @media screen and (max-width: 564px) {
-      right: 2%;
-      top: 59%;
-    }
-  }
-
-  /* Ajuster le positionnement des boutons sur les petites tailles d'écran */
-  @media screen and (max-width: 375px) {
-    .carousel .control-prev,
-    .carousel .control-next {
-      top: 85%;
+      top: 35%;
     }
   }
 
@@ -158,13 +178,11 @@
 }
 
 .carousel .carousel-status {
-  font-size: 20px;
+  text-shadow: none;
   width: 100%;
   height: 100%;
-  color: #cacefa;
-  @media screen and (max-width: 375px) {
-    right: 40%;
-  }
+  color: transparent;
+
 }
 
 .textSlide {

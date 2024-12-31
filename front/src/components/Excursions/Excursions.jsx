@@ -41,6 +41,8 @@ const Excursions = () => {
             <img src={theme.image} alt={theme.title} />
             <h3>{theme.title}</h3>
             <p>{theme.description.slice(0, 100)}...</p>
+            {/* Ajouter un bouton pour indiquer que la carte est cliquable */}
+            <button className="clickable-button">Cliquez ici</button>
           </div>
         ))}
       </div>

@@ -16,7 +16,7 @@
 
   h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-bottom: 1.5rem;
     color: #333;
     max-width: 315px;
@@ -40,7 +40,7 @@
     background-color: #fffc;
     border: 1px solid #ddd;
     border-radius: 25px;
-    padding: 1.5rem;
+    padding: 2.5rem;
     width: 300px;
     height: auto; /* Ajuster la hauteur en fonction du contenu */
     text-align: center;
@@ -51,6 +51,56 @@
     flex-direction: column;
     justify-content: space-between;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    .clickable-button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 25px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      position: absolute;
+      margin-top: 5px;
+      bottom: 0.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      visibility: hidden;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+    /* Afficher le bouton lors du survol de la carte sur desktop */
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    
+    .clickable-button {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  /* Sur mobile : rendre le bouton toujours visible */
+  @media screen and (max-width: 768px) {
+    .clickable-button {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+    /* Afficher le bouton lors du survol de la carte */
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+      
+      .clickable-button {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
     @media screen and (max-width: 550px) {
       width: 100%;
   }
