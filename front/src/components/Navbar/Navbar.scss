@@ -45,7 +45,9 @@
     }
 
     &.vibrating {
-      animation: vibrate 0.2s ease-in-out;
+      transform: scale(1);
+      animation: vibrate 0.6s ease-in-out ;
+      
     }
 
     .icon-description {
@@ -79,18 +81,18 @@
 
 @keyframes vibrate {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1);
   }
   25% {
-    transform: rotate(2deg);
+    transform: rotate(2deg) scale(1.2);
   }
   50% {
-    transform: rotate(-2deg);
+    transform: rotate(-2deg) scale(1.2);
   }
   75% {
-    transform: rotate(2deg);
+    transform: rotate(2deg) scale(1.2);
   }
   100% {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1);
   }
 }
