@@ -61,7 +61,7 @@ const Navbar = () => {
   }, [filteredIcons]); // Dépend de `filteredIcons` pour refléter les changements de mode mobile
 
   return (
-    <nav className="navbar-icons">
+    <nav className="navbar-icons" id="accueil">
       {filteredIcons.map((item, index) => (
         <a
           key={index}
