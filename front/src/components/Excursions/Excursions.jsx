@@ -42,7 +42,7 @@ const Excursions = () => {
             <h3>{theme.title}</h3>
             <p>{theme.description.slice(0, 100)}...</p>
             {/* Ajouter un bouton pour indiquer que la carte est cliquable */}
-            <button className="clickable-button">Cliquez ici</button>
+            <button className="clickable-button">+</button>
           </div>
         ))}
       </div>
