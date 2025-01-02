@@ -84,7 +84,7 @@
   }
 
   /* Sur mobile : rendre le bouton toujours visible */
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 1240px) {
     .clickable-button {
       opacity: 1;
       visibility: visible;
