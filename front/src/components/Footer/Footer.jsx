@@ -175,14 +175,14 @@ const Footer = () => {
           {footerContent.info}</h2>
           <div className="info__card">
             <p>
-              <strong>Entreprise:</strong> en cours..
+              <strong>Entreprise:</strong> Naxos Connection - Naxos 84 300, Cyclades - Grèce
             </p>
             <p>
               <strong>{footerContent.phone}</strong> +33 6 09 33 58 37
             </p>
             <p>
               <strong>{footerContent.emailInfo}</strong>{" "}
-              naxosconnection@gmail.com
+              info@naxosconnection.com
             </p>
 
             <div className="info__socials">
