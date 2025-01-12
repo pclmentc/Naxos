@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="footer__contact">
           <h2>{footerContent.contact}</h2>
 
-          <form action="https://formspree.io/f/mrbbrnkr" method="POST">
+          <form action="https://formspree.io/f/xeoovyra" method="POST">
             <input
               type="text"
               name="name"
