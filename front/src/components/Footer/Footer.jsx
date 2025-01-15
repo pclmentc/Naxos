@@ -182,7 +182,7 @@ const Footer = () => {
             </p>
             <p>
               <strong>{footerContent.emailInfo}</strong>{" "}
-              info@naxosconnection.com
+              info@naxos-connection.eu 
             </p>
 
             <div className="info__socials">
