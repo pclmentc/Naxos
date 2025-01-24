@@ -203,7 +203,7 @@ const Footer = () => {
                 <img src={instagramIcon} alt="Instagram" />
               </a>
               <a
-                href="https://wa.me"
+                href="https://api.whatsapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Contactez-nous sur WhatsApp"
