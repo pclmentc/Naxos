@@ -19,8 +19,8 @@ const VideoSection = () => {
         {isPromoFullscreen && <div className="fullscreen-background"></div>}
         <article className={`promotion ${isPromoFullscreen ? 'fullscreen' : 'normal'}`}>
           <img 
-            style={{ width: '250px', height: 'auto' }}
-            src='/promo/promotion.png' 
+            style={{ width: '250px', height: 'auto',borderRadius:'15px' }}
+            src='/promo/promotion-fr.jpg' 
             alt='promotion du moment' 
           />
         </article>
