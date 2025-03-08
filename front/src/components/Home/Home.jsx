@@ -1,5 +1,5 @@
 import './Home.scss';
-import logo from '/logo.webp';
+import logo from '/logo.png';
 import Navbar from '../Navbar/Navbar';
 import { useLanguage } from '../../context/languageContext';
 import Langue from '../LanguageSelector/LanguageSelector';

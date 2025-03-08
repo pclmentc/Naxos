@@ -20,7 +20,7 @@ const VideoSection = () => {
         <article className={`promotion ${isPromoFullscreen ? 'fullscreen' : 'normal'}`}>
           <img 
             style={{ width: '250px', height: 'auto',borderRadius:'15px' }}
-            src='/promo/promotion-fr.jpg' 
+            src='/promo/promotion.jpg' 
             alt='promotion du moment' 
           />
         </article>
