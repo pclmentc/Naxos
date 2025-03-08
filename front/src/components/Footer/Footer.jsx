@@ -178,7 +178,8 @@ const Footer = () => {
               <strong>Entreprise:</strong> Naxos Connection - Naxos 84 300, Cyclades - Grèce
             </p>
             <p>
-              <strong>{footerContent.phone}</strong> +33 6 09 33 58 37
+              <strong>{footerContent.phone}</strong> +33 6 09 33 58 37/ 0030 697 065 29 65
+
             </p>
             <p>
               <strong>{footerContent.emailInfo}</strong>{" "}
